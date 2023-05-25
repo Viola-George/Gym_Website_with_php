@@ -89,11 +89,10 @@
         <!-- end of adding map -->
      <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>
         <!-- contact form template -->
-        <div class="pt-5 " id="contact">
-       <img src="images/contact.jpg" id="contact-us" alt="Here is background image">
-         <h2 id="contact-us-head" class="col-sm-12">Contact Fitness Gym</h2>
+        <div style="margin: auto 0;" class=" align-items-center justify-content-center " id="contact">
+         <strong><h1 id="contact-us-head" class="col-12">Contact Fitness Gym</h1></strong>
          <!-- user details name,email and phone number -->
-          <form class="form-group" action="contact-process.php" method="post"  id="contact-form" name="contact">
+          <form class="form-group text-align" action="contact-process.php" method="post"  id="contact-form" name="contact">
           <div class="row">
             <div class=" form-group col-md-4">
               <input type="text" class="form-control" name="name" placeholder="Name" required autocomplete="off">
@@ -179,7 +178,7 @@
                     <div class="col-lg-12">
                         <div class="footer-copy-right text-center">
                             <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                              Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | <i class="fa fa-heart" aria-hidden="true"></i> <a href="https://www.TuitionsTonight.com" target="_blank">Tuitions Tonight</a>
+                              Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | <i class="fa fa-heart" aria-hidden="true"></i> <a href="https://www.TuitionsTonight.com" target="_blank">Viola George </a>
                               <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
                           </div>
                       </div>

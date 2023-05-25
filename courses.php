@@ -188,41 +188,41 @@
     </div>
     <!-- video_end -->
     <!-- ? services-area -->
-    <section class="services-area">
+    <section class="bg-white m-5 services-area">
         <div class="container">
             <div class="row justify-content-between">
                 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-8">
                     <div class="single-services mb-40">
                         <div class="features-icon">
-                            <img src="assets/img/icon/icon1.svg" alt="">
+                            <img src="assets/img/icon/icon1.png" alt="">
                         </div>
                         <div class="features-caption">
-                            <h3>Location</h3>
-                            <p>You’ll look at graphs and charts in Task One, how to approach </p>
+                            <h3  style="color: black;">Location</h3>
+                            <p  style="color: black;">You’ll look at graphs and charts in Task One, how to approach </p>
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-4 col-md-6 col-sm-8">
                     <div class="single-services mb-40">
                         <div class="features-icon">
-                            <img src="assets/img/icon/icon2.svg" alt="">
+                            <img src="assets/img/icon/whatsapp.png" alt="">
                         </div>
                         <div class="features-caption">
-                            <h3>Phone</h3>
-                            <p>(90) 277 278 2566</p>
-                            <p>  (78) 267 256 2578</p>
+                            <h3  style="color: black;">Phone</h3>
+                            <p style="color: black;">You can contact me phone or whatsapp</p>
+                            <p  style="color: black;">at  (78) 267 256 2578</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-4 col-md-6 col-sm-8">
                     <div class="single-services mb-40">
                         <div class="features-icon">
-                            <img src="assets/img/icon/icon3.svg" alt="">
+                            <img src="assets/img/icon/mail.png" alt="">
                         </div>
                         <div class="features-caption">
-                            <h3>Email</h3>
-                            <p>tuitionstonight@gmail.com</p>
-                            <p>tutifyy@gmail.com</p>
+                            <h3  style="color: black;">Email</h3>
+                            <p style="color: black;">tuitionstonight@gmail.com</p>
+                            <p style="color: black;">tutifyy@gmail.com</p>
                         </div>
                     </div>
                 </div>
@@ -281,7 +281,7 @@
                     <div class="col-lg-12">
                         <div class="footer-copy-right text-center">
                             <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                              Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | <i class="fa fa-heart" aria-hidden="true"></i> <a href="https://www.TuitionsTonight.com" target="_blank">Tuitions Tonight</a>
+                              Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | <i class="fa fa-heart" aria-hidden="true"></i> <a href="https://www.TuitionsTonight.com" target="_blank">Viola George </a>
                               <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
                           </div>
                       </div>

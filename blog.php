@@ -12,6 +12,7 @@ if ($_SESSION["log"] == true) {
     <title>Healthy Life </title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:url" content=""/>
     <link rel="manifest" href="site.webmanifest">
 
     <!-- CSS here -->
@@ -352,42 +353,46 @@ if ($_SESSION["log"] == true) {
    </div>
    </div>
     </section>
+   
     <!-- ? services-area -->
-    <section class="services-area">
+    <section class="bg-white mt-5 services-area">
         <div class="container">
             <div class="row justify-content-between">
+               
                 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-8">
                     <div class="single-services mb-40">
                         <div class="features-icon">
-                            <img src="assets/img/icon/icon1.svg" alt="">
+                            <img src="assets/img/icon/icon1.png" alt="">
                         </div>
                         <div class="features-caption">
-                            <h3>Location</h3>
-                            <p>You’ll look at graphs and charts in Task One, how to approach </p>
+                            <h3  style="color: black;">Location</h3>
+                            <p  style="color: black;">You’ll look at graphs and charts in Task One, how to approach </p>
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-4 col-md-6 col-sm-8">
                     <div class="single-services mb-40">
                         <div class="features-icon">
-                            <img src="assets/img/icon/icon2.svg" alt="">
+                           
+                        
+                            <img src="assets/img/icon/whatsapp.png" alt=""></a>
                         </div>
                         <div class="features-caption">
-                            <h3>Phone</h3>
-                            <p>(90) 277 278 2566</p>
-                            <p>  (78) 267 256 2578</p>
+                            <h3  style="color: black;">Phone</h3>
+                            <p style="color: black;">You can contact me phone or whatsapp</p>
+                            <p  style="color: black;">at  (78) 267 256 2578</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-4 col-md-6 col-sm-8">
                     <div class="single-services mb-40">
                         <div class="features-icon">
-                            <img src="assets/img/icon/icon3.svg" alt="">
+                            <img src="assets/img/icon/mail.png" alt="">
                         </div>
                         <div class="features-caption">
-                            <h3>Email</h3>
-                            <p>tuitionstonight@gmail.com</p>
-                            <p>tutifyy@gmail.com</p>
+                            <h3  style="color: black;">Email</h3>
+                            <p style="color: black;">tuitionstonight@gmail.com</p>
+                            <p style="color: black;">tutifyy@gmail.com</p>
                         </div>
                     </div>
                 </div>
