@@ -89,22 +89,22 @@
         <!-- end of adding map -->
      <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>
         <!-- contact form template -->
-        <div style="margin: auto 0;" class=" align-items-center justify-content-center " id="contact">
+        <div style=" margin: auto 0;" class="h-100 align-items-center justify-content-center " id="contact">
          <strong><h1 id="contact-us-head" class="col-12">Contact Fitness Gym</h1></strong>
          <!-- user details name,email and phone number -->
-          <form class="form-group text-align" action="contact-process.php" method="post"  id="contact-form" name="contact">
+          <form style="margin-left: 18%;width: 66%;" class="form-group text-align" action="contact-process.php" method="post"  id="contact-form" name="contact">
           <div class="row">
-            <div class=" form-group col-md-4">
-              <input type="text" class="form-control" name="name" placeholder="Name" required autocomplete="off">
+            <div class=" form-group col-4">
+              <input style="height: 91%;" type="text" class="form-control" name="name" placeholder="Name" required autocomplete="off">
             </div>
-            <div class=" form-group col-md-4">
-              <input type="email" class="form-control" name="email" placeholder="Email" required autocomplete="off">
+            <div class=" form-group col-4">
+              <input style="height: 91%;"type="email" class="form-control" name="email" placeholder="Email" required autocomplete="off">
             </div>
-            <div class=" form-group col-md-4">
-              <input type="text" class="form-control" name="phone" placeholder="Phone number" required autocomplete="off">
+            <div class=" form-group col-4">
+              <input style="height: 91%;"type="text" class="form-control" name="phone" placeholder="Phone number" required autocomplete="off">
             </div>
              <!-- here dropdown you have to select our services -->
-            <div class="form-group col-md-12">
+            <div class="form-group col-12">
           <select class="form-control" id="dropdown" name="services">
             <option selected>Select Service</option>
             <option>Weight Loss</option>
@@ -113,11 +113,11 @@
             <option>Personal Training</option>
           </select>
         </div>
-        <div class=" form-group col-md-12">
-          <textarea type="text-area" class="form-control" name="message" placeholder="Message" required autocomplete="off"></textarea>
+        <div class=" form-group col-12">
+          <textarea style="height: 100%;" type="text-area" class="form-control" name="message" placeholder="Message" required autocomplete="off"></textarea>
         </div>
-        <div class="col-md-4">
-        <button id="contact-but" name="send" type="submit" class="btn btn-danger">Submit</button>
+        <div class="col-4">
+          <button style="height: 91%;" id="contact-but" name="send" type="submit" class="btn form-control btn-danger">Submit</button>
         </div>
       </div>
         </form>
@@ -127,6 +127,7 @@
 
 
 </main>
+<br>  <br>  <br>  <br> 
 <footer>
     <!--? Footer Start-->
     <div class="footer-area black-bg">
@@ -189,9 +190,9 @@
       <!-- Footer End-->
   </footer>
   <!-- Scroll Up -->
-  <div id="back-top" >
+  <!-- <div id="back-top" >
     <a title="Go to Top" href="#"> <i class="fas fa-level-up-alt"></i></a>
-</div>
+</div> -->
 
 <!-- JS here -->
 

@@ -103,7 +103,7 @@
                                 <img src="assets/img/gallery/team1.png" alt="">
                             </div>
                             <div class="cat-cap">
-                                <h5><a href="services.html">Body Building</a></h5>
+                                <h5><a href="contact.php">Body Building</a></h5>
                                 <p>You’ll look at graphs and charts in Task One, how to approach the task </p>
                             </div>
                         </div>
@@ -114,7 +114,7 @@
                                 <img src="assets/img/gallery/team2.png" alt="">
                             </div>
                             <div class="cat-cap">
-                                <h5><a href="services.html">Muscle Gain</a></h5>
+                                <h5><a href="contact.php">Muscle Gain</a></h5>
                                 <p>You’ll look at graphs and charts in Task One, how to approach the task </p>
                             </div>
                         </div>
@@ -125,7 +125,7 @@
                                 <img src="assets/img/gallery/team3.png" alt="">
                             </div>
                             <div class="cat-cap">
-                                <h5><a href="services.html">Weight Loss</a></h5>
+                                <h5><a href="contact.php">Weight Loss</a></h5>
                                 <p>You’ll look at graphs and charts in Task One, how to approach the task </p>
                             </div>
                         </div>
@@ -214,7 +214,7 @@
         </div>
         <!-- video_end -->
         <!-- ? services-area -->
-        <section class="services-area">
+        <!-- <section class="services-area">
             <div class="container">
                 <div class="row justify-content-between">
                     <div class="col-xl-4 col-lg-4 col-md-6 col-sm-8">
@@ -255,7 +255,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
     </main>
     <footer>
         <!--? Footer Start-->

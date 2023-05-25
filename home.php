@@ -29,6 +29,7 @@ include("connect.php");
     <link rel="stylesheet" href="assets/css/slick.css">
     <link rel="stylesheet" href="assets/css/nice-select.css">
     <link rel="stylesheet" href="assets/css/style.css">
+
 </head>
 
 <body class="black-bg">
@@ -160,7 +161,7 @@ include("connect.php");
                                 <img src="assets/img/gallery/team1.png" alt="">
                             </div>
                             <div class="cat-cap">
-                                <h5><a href="services.html">Body Building</a></h5>
+                                <h5><a href="contact.php">Body Building</a></h5>
                                 <p>You’ll look at graphs and charts in Task One, how to approach the task </p>
                             </div>
                         </div>
@@ -171,7 +172,7 @@ include("connect.php");
                                 <img src="assets/img/gallery/team2.png" alt="">
                             </div>
                             <div class="cat-cap">
-                                <h5><a href="services.html">Muscle Gain</a></h5>
+                                <h5><a href="contact.php">Muscle Gain</a></h5>
                                 <p>You’ll look at graphs and charts in Task One, how to approach the task </p>
                             </div>
                         </div>
@@ -182,7 +183,7 @@ include("connect.php");
                                 <img src="assets/img/gallery/team3.png" alt="">
                             </div>
                             <div class="cat-cap">
-                                <h5><a href="services.html">Weight Loss</a></h5>
+                                <h5><a href="contact.php">Weight Loss</a></h5>
                                 <p>You’ll look at graphs and charts in Task One, how to approach the task </p>
                             </div>
                         </div>
@@ -211,8 +212,8 @@ include("connect.php");
                             <div class="gallery-img big-img" style="background-image: url(assets/img/gallery/gallery2.png);"></div>
                             <div class="overlay">
                                 <div class="overlay-content">
-                                    <h3>Muscle gaining </h3>
-                                    <a href="gallery.html"><i class="ti-plus"></i></a>
+                                    <h3>Coach Rock </h3>
+                                    <a href="coach.php"><i class="ti-plus"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -222,8 +223,8 @@ include("connect.php");
                             <div class="gallery-img big-img" style="background-image: url(assets/img/gallery/gallery3.png);"></div>
                             <div class="overlay">
                                 <div class="overlay-content">
-                                    <h3>Muscle gaining </h3>
-                                    <a href="gallery.html"><i class="ti-plus"></i></a>
+                                    <h3>Coach Ashly </h3>
+                                    <a href="coach.php"><i class="ti-plus"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -233,8 +234,8 @@ include("connect.php");
                             <div class="gallery-img big-img" style="background-image: url(assets/img/gallery/gallery4.png);"></div>
                             <div class="overlay">
                                 <div class="overlay-content">
-                                    <h3>Muscle gaining </h3>
-                                    <a href="gallery.html"><i class="ti-plus"></i></a>
+                                    <h3>Coach Massy </h3>
+                                    <a href="coach.php"><i class="ti-plus"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -244,8 +245,8 @@ include("connect.php");
                             <div class="gallery-img big-img" style="background-image: url(assets/img/gallery/gallery5.png);"></div>
                             <div class="overlay">
                                 <div class="overlay-content">
-                                    <h3>Muscle gaining </h3>
-                                    <a href="gallery.html"><i class="ti-plus"></i></a>
+                                    <h3>Coach Vivian </h3>
+                                    <a href="coach.php"><i class="ti-plus"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -255,8 +256,8 @@ include("connect.php");
                             <div class="gallery-img big-img" style="background-image: url(assets/img/gallery/gallery6.png);"></div>
                             <div class="overlay">
                                 <div class="overlay-content">
-                                    <h3>Muscle gaining </h3>
-                                    <a href="gallery.html"><i class="ti-plus"></i></a>
+                                    <h3>Coach Mark </h3>
+                                    <a href="coach.php"><i class="ti-plus"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -325,7 +326,7 @@ include("connect.php");
                                             <p>Month to mouth</p>
                                         </div>
                                     </div>
-                                    <a href="#" class="border-btn border-btn2">Join Now</a>
+                                    <a href="contact.php" class="border-btn border-btn2">Join Now</a>
                                 </div>
                             </div>
                         </div>
@@ -379,7 +380,7 @@ include("connect.php");
                                             <p>Month to mouth</p>
                                         </div>
                                     </div>
-                                    <a href="#" class="border-btn border-btn2">Join Now</a>
+                                    <a href="contact.php" class="border-btn border-btn2">Join Now</a>
                                 </div>
                             </div>
                         </div>
@@ -433,7 +434,7 @@ include("connect.php");
                                             <p>Month to mouth</p>
                                         </div>
                                     </div>
-                                    <a href="#" class="border-btn border-btn2">Join Now</a>
+                                    <a href="contact.php" class="border-btn border-btn2">Join Now</a>
                                 </div>
                             </div>
                         </div>
@@ -522,7 +523,7 @@ include("connect.php");
         </div>
         <!-- video_end -->
         <!-- ? services-area -->
-        <section class="bg-white m-5 services-area">
+        <!-- <section class="bg-white m-5 services-area">
             <div class="container">
                 <div class="row justify-content-between">
                     <div class="col-xl-4 col-lg-4 col-md-6 col-sm-8">
@@ -562,7 +563,7 @@ include("connect.php");
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         <!-- SCHEDULE -->
 
 
@@ -682,8 +683,10 @@ include("connect.php");
         </div>
         <!-- Footer End-->
     </footer>
+
     <!-- Scroll Up -->
     <div id="back-top">
+
         <a title="Go to Top" href="#"> <i class="fas fa-level-up-alt"></i></a>
     </div>
 
