@@ -264,7 +264,7 @@
                                 <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                                     Copyright &copy;<script>
                                         document.write(new Date().getFullYear());
-                                    </script> All rights reserved | <i class="fa fa-heart" aria-hidden="true"></i> <a href="https://www.TuitionsTonight.com" target="_blank">Viola George</a>
+                                    </script> All rights reserved | <i class="fa fa-heart" aria-hidden="true"></i> <a href="https://www.TuitionsTonight.com" target="_blank">By Myself Effort</a>
                                     <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
                             </div>
                         </div>
