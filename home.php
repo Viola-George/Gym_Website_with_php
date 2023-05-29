@@ -477,41 +477,156 @@ include("connect.php");
             <div class="container">
                 <!-- Section Tittle -->
                 <div class="row justify-content-center">
-                    <div class="col-lg-7 col-md-9 col-sm-10">
-                        <div class="section-tittle text-center mb-100 wow fadeInUp" data-wow-duration="2s" data-wow-delay=".2s">
-                            <h2>From Blog</h2>
+                     <div class="col-xl-12">
+                        <div class="section-tittle text-center mb-55 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".1s">
+                            <h2>Diet Systems</h2>
                         </div>
                     </div>
                 </div>
+                <br><br><strong> <h1 style="color: #FF0000;position: relative;right: 50px; " class="p-3">For overweight</h1></strong>  <br><br>
+
                 <div class="row">
-                    <div class="col-xl-6 col-lg-6 col-md-6">
-                        <div class="home-blog-single mb-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
-                            <div class="blog-img-cap">
-                                <div class="blog-img">
-                                    <img src="assets/img/gallery/blog1.png" alt="">
-                                </div>
-                                <div class="blog-cap">
-                                    <span>Gym & Fitness</span>
-                                    <h3><a href="blog_details.html">Your Antibiotic One Day To 10 Day Options</a></h3>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-6 col-lg-6 col-md-6">
-                        <div class="home-blog-single mb-30 wow fadeInUp" data-wow-duration="2s" data-wow-delay=".6s">
-                            <div class="blog-img-cap">
-                                <div class="blog-img">
-                                    <img src="assets/img/gallery/blog2.png" alt="">
-                                </div>
-                                <div class="blog-cap">
-                                    <span>Gym & Fitness</span>
-                                    <h3><a href="blog_details.html">Your Antibiotic One Day To 10 Day Options</a></h3>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <div class="col-sm-4">
+                <div class="properties mb-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
+        <div style="background-color: transparent;" class="card">
+      <div class="card-body">
+        <h3 style="color: white;" class="card-title">Intermittent Fasting</h3>
+        <p style="color: #7a7a7a;" class="card-text">Intermittent fasting is an eating pattern that cycles between periods of fasting and eating. It has been shown to have various health benefits and can aid in weight loss.</p>
+      </div>
+    </div>
                 </div>
-            </div>
+  </div>
+  <div class="col-sm-4">
+  <div class="properties mb-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
+
+    <div style="background-color: transparent;" class="card">
+      <div class="card-body">
+        <h3 style="color: white;" class="card-title">The low-calorie diet is a weight-loss approach that involves reducing calorie intake</h3>
+        <p style="color: #7a7a7a;" class="card-text">The individual is required to consume limited amounts of calories by reducing portion sizes or cutting back on high-fat and high-sugar foods.</p>
+      </div>
+    </div>
+  </div>
+  </div>
+  <div class="col-sm-4">
+  <div class="properties mb-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">
+
+    <div style="background-color: transparent;" class="card">
+      <div class="card-body">
+        <h3 style="color: white;" class="card-title">The vegetarian diet </h3>
+        <p style="color: #7a7a7a;" class="card-text">The vegetarian diet or strict vegetarian diet excludes meat and animal products and relies on vegetables, fruits, grains, nuts, and seeds as sources of food.</p>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+<div class="row">
+                <div class="col-sm-4">
+                <div class="properties mb-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
+
+    <div style="background-color: transparent;" class="card">
+      <div class="card-body">
+        <h3 style="color: white;" class="card-title">The high-protein diet </h3>
+        <p style="color: #7a7a7a;" class="card-text">The high-protein diet focuses on increasing protein intake, which is beneficial for muscle building and prolonged satiety..</p>
+      </div>
+    </div>
+                </div>
+  </div>
+  <div class="col-sm-4">
+  <div class="properties mb-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
+
+    <div style="background-color: transparent;" class="card">
+      <div class="card-body">
+        <h3 style="color: white;" class="card-title">The whole foods diet </h3>
+        <p style="color: #7a7a7a;" class="card-text">The high-protein diet focuses on increasing protein intake, which is beneficial for muscle building and prolonged satietyThe whole foods diet relies on consuming natural, unprocessed foods such as fruits, vegetables, whole grains, and healthy proteins. It aims to promote overall health and good nutrition.</p>
+      </div>
+    </div>
+  </div>
+  </div>
+  <div class="col-sm-4">
+  <div class="properties mb-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">
+
+    <div style="background-color: transparent;" class="card">
+      <div class="card-body">
+        <h3 style="color: white;" class="card-title">Ketogenic Diet</h3>
+        <p style="color: #7a7a7a;" class="card-text">The ketogenic diet is a low-carb, high-fat diet that has been shown to help with weight loss and improve certain health conditions. It involves reducing carbohydrate intake and replacing it with fat.</p>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <br><br><strong> <h1 style="color: #FF0000;position: relative;right: 50px; " class="p-5">For Underweight</h1></strong>   <br><br>
+<br><br>
+
+                <div class="row">
+                <div class="col-sm-4">
+                <div class="properties mb-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
+        <div style="background-color: transparent;" class="card">
+      <div class="card-body">
+        <h3 style="color: white;" class="card-title">Increase calorie intake</h3>
+        <p style="color: #7a7a7a;" class="card-text">You need to consume more calories than you burn each day. Increase your portion sizes and have snacks throughout the day.</p>
+      </div>
+    </div>
+                </div>
+  </div>
+  <div class="col-sm-4">
+  <div class="properties mb-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
+
+    <div style="background-color: transparent;" class="card">
+      <div class="card-body">
+        <h3 style="color: white;" class="card-title">Eat balanced meals</h3>
+        <p style="color: #7a7a7a;" class="card-text">Your meals should include a variety of nutrients, such as proteins, carbohydrates, and healthy fats. Protein sources include meats, fish, eggs, dairy, and nuts. Carbohydrate sources include rice, bread, potatoes, and whole grains. Healthy fats can be obtained from olive oil, avocado, and nuts..</p>
+      </div>
+    </div>
+  </div>
+  </div>
+  <div class="col-sm-4">
+  <div class="properties mb-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">
+
+    <div style="background-color: transparent;" class="card">
+      <div class="card-body">
+        <h3 style="color: white;" class="card-title">Have larger meals </h3>
+        <p style="color: #7a7a7a;" class="card-text">Try to increase the size of your main meals. You may need to eat larger portions than usual to increase calorie intake..</p>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+<div class="row">
+                <div class="col-sm-4">
+                <div class="properties mb-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
+
+    <div style="background-color: transparent;" class="card">
+      <div class="card-body">
+        <h3 style="color: white;" class="card-title">Have snacks  </h3>
+        <p style="color: #7a7a7a;" class="card-text">Have healthy snacks between main meals. Snacks can include natural juices, fruits, yogurt, and nuts.</p>
+      </div>
+    </div>
+                </div>
+  </div>
+  <div class="col-sm-4">
+  <div class="properties mb-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
+
+    <div style="background-color: transparent;" class="card">
+      <div class="card-body">
+        <h3 style="color: white;" class="card-title">Consume calorie-rich beverages  </h3>
+        <p style="color: #7a7a7a;" class="card-text">Drink calorie-rich liquids such as natural juices, milk, and dense fruit smoothies. Avoid drinking fluids right before meals to stimulate appetite.</p>
+      </div>
+    </div>
+  </div>
+  </div>
+  <div class="col-sm-4">
+  <div class="properties mb-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">
+
+    <div style="background-color: transparent;" class="card">
+      <div class="card-body">
+        <h3 style="color: white;" class="card-title">Exercise</h3>
+        <p style="color: #7a7a7a;" class="card-text">Engaging in strength training exercises such as weightlifting can help in gaining muscle mass and weight.</p>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+               
         </section>
         <!-- Blog Area End -->
         <!--? video_start -->
@@ -524,6 +639,7 @@ include("connect.php");
                     </div>
                 </div>
             </div>
+
         </div>
         <!-- video_end -->
         <!-- ? services-area -->
