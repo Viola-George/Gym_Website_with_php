@@ -46,45 +46,48 @@ if ($_SESSION["log"] == true) {
         </div>
         <!-- MENU BAR -->
         <header>
-            <!-- Header Start -->
-            <div class="header-area header-transparent">
-                <div class="main-header header-sticky">
-                    <div class="container-fluid">
-                        <div class="menu-wrapper d-flex align-items-center justify-content-between">
+        <!-- Header Start -->
+        <div class="header-area header-transparent">
+            <div class="main-header header-sticky">
+                <div class="container-fluid">
+                    <div class="menu-wrapper d-flex align-items-center justify-content-between">
 
-                            <div class="logo">
-                                <a href="index.html"><img src="img/TT.png" alt=""></a>
-                                <strong><a style="font-size: 230%;" class="display-1 navbar-brand" href="home.php">
-                                        Healthy<span style="color: red;font-size: 130%;">Life</span> </a></strong>
+                        <div class="logo">
+                            <a href="index.html"><img src="img/TT.png" alt=""></a>
+                            <strong><a style="font-size: 230%;" class="display-1 navbar-brand" href="home.php">
+                                    Healthy<span style="color: red;font-size: 130%;">Life</span> </a></strong>
 
-                            </div>
+                        </div>
 
-                            <div class="main-menu f-right d-none d-lg-block">
-                                <nav>
-                                    <ul id="navigation">
-                                        <li><a href="home.php">Home</a></li>
-                                        <li><a href="about.php">About</a></li>
-                                        <li><a href="courses.php">Courses</a></li>
-                                        <li><a href="blog.php">Pricing</a></li>
-                                        <li><a href="contact.php">Contact</a></li>
-                                        <li><a href="Account.php">Account</a></li>
-                                        <li><a href="logout.php">logout</a></li>
-                                    </ul>
-                                </nav>
-                            </div>
-                            <!-- Header-btn -->
+                        <div class="main-menu f-right d-none d-lg-block">
+                            <nav>
+                                <ul id="navigation">
+                                    <li><a href="home.php">Home</a></li>
+                                    <li><a href="about.php">About</a></li>
+                                    
+                                    <li><a href="execirse.php">Execirse</a></li>
 
-                            <!-- Mobile Menu -->
-                            <div class="col-12">
-                                <div class="mobile_menu d-block d-lg-none"></div>
-                            </div>
+                                    <li><a href="courses.php">Courses</a></li>
+                                    <li><a href="blog.php">Pricing</a></li>
+                                    <li><a href="contact.php">Contact</a></li>
+                                    <li><a href="Account.php">Account</a></li>
+                                    <li><a href="logout.php">logout</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <!-- Header-btn -->
+
+                        <!-- Mobile Menu -->
+                        <div class="col-12">
+                            <div class="mobile_menu d-block d-lg-none"></div>
                         </div>
                     </div>
                 </div>
-
             </div>
-            <!-- Header End -->
-        </header>
+
+        </div>
+        <!-- Header End -->
+    </header>
 
         <!--blog start -->
         <section id="blog" style="width:auto;margin:10px" class="new-product-area " data-aos="fade-up" data-aos-delay="700">
@@ -407,68 +410,69 @@ if ($_SESSION["log"] == true) {
 
 
         <footer>
-            <!--? Footer Start-->
-            <div class="footer-area black-bg">
-                <div class="container">
-                    <div class="footer-top footer-padding">
-                        <!-- Footer Menu -->
-                        <div class="row">
-                            <div class="col-xl-12">
-                                <div class="single-footer-caption mb-50 text-center">
-                                    <!-- logo -->
-                                    <div class="footer-logo wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
-                                        <a href="index.html"><img src="img/TT.png" alt=""></a>
-                                    </div>
-                                    <!-- Menu -->
-                                    <!-- Header Start -->
-                                    <div class="header-area main-header2 wow fadeInUp" data-wow-duration="2s" data-wow-delay=".4s">
-                                        <div class="main-header main-header2">
-                                            <div class="menu-wrapper menu-wrapper2">
-                                                <!-- Main-menu -->
-                                                <div class="main-menu main-menu2 text-center">
-                                                    <nav>
-                                                        <ul>
-                                                            <li><a href="home.php">Home</a></li>
-                                                            <li><a href="about.php">About</a></li>
-                                                            <li><a href="courses.php">Courses</a></li>
-                                                            <li><a href="blog.php">Pricing</a></li>
-                                                            <li><a href="Account.php">Account</a></li>
-                                                            <li><a href="contact.php">Contact</a></li>
-                                                        </ul>
-                                                    </nav>
-                                                </div>
+        <!--? Footer Start-->
+        <div class="footer-area black-bg">
+            <div class="container">
+                <div class="footer-top footer-padding">
+                    <!-- Footer Menu -->
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <div class="single-footer-caption mb-50 text-center">
+                                <!-- logo -->
+                                <div class="footer-logo wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
+                                    <a href="index.html"><img src="img/TT.png" alt=""></a>
+                                </div>
+                                <!-- Menu -->
+                                <!-- Header Start -->
+                                <div class="header-area main-header2 wow fadeInUp" data-wow-duration="2s" data-wow-delay=".4s">
+                                    <div class="main-header main-header2">
+                                        <div class="menu-wrapper menu-wrapper2">
+                                            <!-- Main-menu -->
+                                            <div class="main-menu main-menu2 text-center">
+                                                <nav>
+                                                    <ul>
+                                                        <li><a href="home.php">Home</a></li>
+                                                        <li><a href="about.php">About</a></li>
+                                                        <li><a href="execirse.php">Execirse</a></li>
+                                                        <li><a href="courses.php">Courses</a></li>
+                                                        <li><a href="blog.php">Pricing</a></li>
+                                                        <li><a href="Account.php">Account</a></li>
+                                                        <li><a href="contact.php">Contact</a></li>
+                                                    </ul>
+                                                </nav>
                                             </div>
                                         </div>
                                     </div>
-                                    <!-- Header End -->
-                                    <!-- social -->
-                                    <div class="footer-social mt-30 wow fadeInUp" data-wow-duration="3s" data-wow-delay=".8s">
-                                        <a href="https://www.youtube.com/channel/UCsZydS6Ww6KdeGsYao4lniw"><i class="fab fa-youtube"></i></a>
-                                        <a href="https://m.facebook.com/TT7.in/"><i class="fab fa-facebook-f"></i></a>
-                                        <a href="https://www.instagram.com/tuitionstonight/"><i class="fab fa-instagram"></i></a>
-                                    </div>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Footer Bottom -->
-                    <div class="footer-bottom">
-                        <div class="row d-flex align-items-center">
-                            <div class="col-lg-12">
-                                <div class="footer-copy-right text-center">
-                                    <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                                        Copyright &copy;<script>
-                                            document.write(new Date().getFullYear());
-                                        </script> All rights reserved | <i class="fa fa-heart" aria-hidden="true"></i> <a href="https://www.TuitionsTonight.com" target="_blank">Tuitions Tonight</a>
-                                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+                                <!-- Header End -->
+                                <!-- social -->
+                                <div class="footer-social mt-30 wow fadeInUp" data-wow-duration="3s" data-wow-delay=".8s">
+                                    <a href="#"><i class="fab fa-youtube"></i></a>
+                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fab fa-instagram"></i></a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+                <!-- Footer Bottom -->
+                <div class="footer-bottom">
+                    <div class="row d-flex align-items-center">
+                        <div class="col-lg-12">
+                            <div class="footer-copy-right text-center">
+                                <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                                    Copyright &copy;<script>
+                                        document.write(new Date().getFullYear());
+                                    </script> All rights reserved | <i class="fa fa-heart" aria-hidden="true"></i> <a href="#" target="_blank">By Myself Effort</a>
+                                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <!-- Footer End-->
-        </footer>
+        </div>
+        <!-- Footer End-->
+    </footer>
         <!-- Scroll Up -->
         <div id="back-top">
             <a title="Go to Top" href="#"> <i class="fas fa-level-up-alt"></i></a>

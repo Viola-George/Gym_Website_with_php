@@ -47,7 +47,8 @@
 
                         <div class="logo">
                             <a href="index.html"><img src="img/TT.png" alt=""></a>
-                            <a class="navbar-brand" href="home.php">Healthy Life</a>
+                            <strong><a style="font-size: 230%;" class="display-1 navbar-brand" href="home.php">
+                                    Healthy<span style="color: red;font-size: 130%;">Life</span> </a></strong>
 
                         </div>
 
@@ -56,6 +57,9 @@
                                 <ul id="navigation">
                                     <li><a href="home.php">Home</a></li>
                                     <li><a href="about.php">About</a></li>
+                                    
+                                    <li><a href="execirse.php">Execirse</a></li>
+
                                     <li><a href="courses.php">Courses</a></li>
                                     <li><a href="blog.php">Pricing</a></li>
                                     <li><a href="contact.php">Contact</a></li>
@@ -281,6 +285,7 @@
                                                     <ul>
                                                         <li><a href="home.php">Home</a></li>
                                                         <li><a href="about.php">About</a></li>
+                                                        <li><a href="execirse.php">Execirse</a></li>
                                                         <li><a href="courses.php">Courses</a></li>
                                                         <li><a href="blog.php">Pricing</a></li>
                                                         <li><a href="Account.php">Account</a></li>
@@ -294,9 +299,9 @@
                                 <!-- Header End -->
                                 <!-- social -->
                                 <div class="footer-social mt-30 wow fadeInUp" data-wow-duration="3s" data-wow-delay=".8s">
-                                    <a href="https://www.youtube.com/channel/UCsZydS6Ww6KdeGsYao4lniw"><i class="fab fa-youtube"></i></a>
-                                    <a href="https://m.facebook.com/TT7.in/"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="https://www.instagram.com/tuitionstonight/"><i class="fab fa-instagram"></i></a>
+                                    <a href="#"><i class="fab fa-youtube"></i></a>
+                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fab fa-instagram"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -310,7 +315,7 @@
                                 <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                                     Copyright &copy;<script>
                                         document.write(new Date().getFullYear());
-                                    </script> All rights reserved | <i class="fa fa-heart" aria-hidden="true"></i> <a href="https://www.TuitionsTonight.com" target="_blank">By Myself Effort</a>
+                                    </script> All rights reserved | <i class="fa fa-heart" aria-hidden="true"></i> <a href="#" target="_blank">By Myself Effort</a>
                                     <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
                             </div>
                         </div>
