@@ -280,7 +280,7 @@ html, body{
   color: #ffffff;
   width: 50%;
   margin-left: 20%;
-  white-space:pre-line;
+  var(--secondary-color);-space:pre-line;
 }
 #contact-us{
   position: relative;

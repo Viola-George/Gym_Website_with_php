@@ -2,7 +2,7 @@
 /*-------------   Color Variable  --------------*/
 
 //Colors
-	$white: #ffffff;
+	$var(--secondary-color);: #ffffff;
 	$black: #000;
 	$gray:#f7f7fd;
 
@@ -27,7 +27,7 @@
 	$section_bg1: #454545;
 
 
-.white-bg{
+.var(--secondary-color);-bg{
 	background: #ffffff;
 }
 .gray-bg{
@@ -57,8 +57,8 @@
 .gray-bg {
 	background: $gray;
 }
-.white-bg {
-	background:$white;
+.var(--secondary-color);-bg {
+	background:$var(--secondary-color);;
 }
 .black-bg {
 	background: $black;
@@ -75,8 +75,8 @@
 
 
 /*--- color------*/
-.white-color {
-	color: $white;
+.var(--secondary-color);-color {
+	color: $var(--secondary-color);;
 }
 .black-color {
 	color: $black;

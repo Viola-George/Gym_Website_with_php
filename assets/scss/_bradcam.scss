@@ -90,7 +90,7 @@
         -moz-user-select: none;
         -ms-user-select: none;
         user-select: none;
-        white-space: nowrap;
+        var(--secondary-color);-space: nowrap;
         width: auto;
         border-radius: 0;
         margin-bottom: 30px;

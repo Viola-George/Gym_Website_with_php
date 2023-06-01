@@ -10,8 +10,8 @@ $primary-color: #7c32ff;
 $primary-color1: #c738d8;
 $title-color: #415094;
 $text-color: #828bb2;
-$white: #fff;
-$offwhite: #f9f9ff;
+$var(--secondary-color);: #fff;
+$offvar(--secondary-color);: #f9f9ff;
 $black: #000;
 
 //    Mixins
@@ -74,7 +74,7 @@ $black: #000;
     animation: $args;
 }
 .sample-text-area {
-    background: $white;
+    background: $var(--secondary-color);;
     padding: 100px 0 70px 0;
 }
 
@@ -107,7 +107,7 @@ del {
         padding: 70px 15px;
         border-top: 1px dotted #eee;
     }
-    background: $white;
+    background: $var(--secondary-color);;
 }
 
 .button-group-area {
@@ -170,12 +170,12 @@ del {
         border: 1px solid transparent;
         &:hover {
             border: 1px solid $default;
-            background: $white;
+            background: $var(--secondary-color);;
         }
     }
     &.default-border {
         border: 1px solid $default;
-        background: $white;
+        background: $var(--secondary-color);;
         &:hover {
             color: $title-color;
             background: $default;
@@ -183,101 +183,101 @@ del {
         }
     }
     &.primary {
-        color: $white;
+        color: $var(--secondary-color);;
         background: $primary;
         border: 1px solid transparent;
         &:hover {
             color: $primary;
             border: 1px solid $primary;
-            background: $white;
+            background: $var(--secondary-color);;
         }
     }
     &.primary-border {
         color: $primary;
         border: 1px solid $primary;
-        background: $white;
+        background: $var(--secondary-color);;
         &:hover {
-            color: $white;
+            color: $var(--secondary-color);;
             background: $primary;
             border: 1px solid transparent;
         }
     }
     &.success {
-        color: $white;
+        color: $var(--secondary-color);;
         background: $success;
         border: 1px solid transparent;
         &:hover {
             color: $success;
             border: 1px solid $success;
-            background: $white;
+            background: $var(--secondary-color);;
         }
     }
     &.success-border {
         color: $success;
         border: 1px solid $success;
-        background: $white;
+        background: $var(--secondary-color);;
         &:hover {
-            color: $white;
+            color: $var(--secondary-color);;
             background: $success;
             border: 1px solid transparent;
         }
     }
     &.info {
-        color: $white;
+        color: $var(--secondary-color);;
         background: $info;
         border: 1px solid transparent;
         &:hover {
             color: $info;
             border: 1px solid $info;
-            background: $white;
+            background: $var(--secondary-color);;
         }
     }
     &.info-border {
         color: $info;
         border: 1px solid $info;
-        background: $white;
+        background: $var(--secondary-color);;
         &:hover {
-            color: $white;
+            color: $var(--secondary-color);;
             background: $info;
             border: 1px solid transparent;
         }
     }
     &.warning {
-        color: $white;
+        color: $var(--secondary-color);;
         background: $warning;
         border: 1px solid transparent;
         &:hover {
             color: $warning;
             border: 1px solid $warning;
-            background: $white;
+            background: $var(--secondary-color);;
         }
     }
     &.warning-border {
         color: $warning;
         border: 1px solid $warning;
-        background: $white;
+        background: $var(--secondary-color);;
         &:hover {
-            color: $white;
+            color: $var(--secondary-color);;
             background: $warning;
             border: 1px solid transparent;
         }
     }
     &.danger {
-        color: $white;
+        color: $var(--secondary-color);;
         background: $danger;
         border: 1px solid transparent;
         &:hover {
             color: $danger;
             border: 1px solid $danger;
-            background: $white;
+            background: $var(--secondary-color);;
         }
     }
     &.danger-border {
         color: $danger;
         border: 1px solid $danger;
-        background: $white;
+        background: $var(--secondary-color);;
         &:hover {
-            color: $white;
+            color: $var(--secondary-color);;
             background: $danger;
             border: 1px solid transparent;
         }
@@ -290,13 +290,13 @@ del {
         &:hover {
             color: $title-color;
             border: 1px solid $link;
-            background: $white;
+            background: $var(--secondary-color);;
         }
     }
     &.link-border {
         color: $title-color;
         border: 1px solid $link;
-        background: $white;
+        background: $var(--secondary-color);;
         text-decoration: underline;
         &:hover {
             color: $title-color;
@@ -430,7 +430,7 @@ del {
             width: 14px;
             height: 14px;
             border: 3px solid $primary;
-            background: $white;
+            background: $var(--secondary-color);;
             top: 4px;
             left: 0;
             border-radius: 50%;
@@ -650,7 +650,7 @@ del {
                 width: 15px;
                 height: 15px;
                 border-radius: 50%;
-                background: $white;
+                background: $var(--secondary-color);;
                 @include transition (all .2s);
                 box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.2);
                 cursor: pointer;
@@ -715,7 +715,7 @@ del {
                 width: 15px;
                 height: 15px;
                 border-radius: 50%;
-                background: $white;
+                background: $var(--secondary-color);;
                 @include transition (all .2s);
                 box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.2);
                 cursor: pointer;

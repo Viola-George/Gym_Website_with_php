@@ -1,0 +1,65 @@
+/*!
+ * Dark Mode Switch v1.0.1 (https://github.com/coliff/dark-mode-switch)
+ * Copyright 2021 C.Oliff
+ * Licensed under MIT (https://github.com/coliff/dark-mode-switch/blob/main/LICENSE)
+ */
+
+[data-theme="dark"] {
+  background-color: #111 !important;
+  color: #eee;
+}
+
+[data-theme="dark"] .bg-black {
+  background-color: #fff !important;
+}
+
+[data-theme="dark"] .bg-dark {
+  background-color: #eee !important;
+}
+
+[data-theme="dark"] .bg-light {
+  background-color: #222 !important;
+}
+
+[data-theme="dark"] .bg-var(--secondary-color); {
+  background-color: #000 !important;
+}
+
+
+[data-theme="dark"] .nav-link {
+  color: var(--secondary-color); !important;
+}
+ 
+
+
+[data-theme="dark"]  .im1 {
+  content:url("../images/stars.png") !important;
+}
+
+[data-theme="dark"] .im2 {
+  content:url("../images/moon.png") !important;
+}
+
+[data-theme="dark"] .im3 {
+  content:url("../images/mountain.png") !important;
+}
+
+[data-theme="dark"] .im4 {
+  content:url("../images/mountain-back.png") !important;
+}
+
+[data-theme="dark"] .im5 {
+  content:url("../images/mountain-front.png") !important;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #914e2c;
+  box-shadow: 0px 0px 30px 30px #914e2c;
+}
+[data-theme="dark"] .scrollbar-thumb {
+  background-color: purple !important;
+  box-shadow: 0px 0px 30px 30px purple !important;
+
+}
+[data-theme="dark"] .che {
+  color: var(--secondary-color); !important;
+}

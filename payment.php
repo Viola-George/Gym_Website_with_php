@@ -30,141 +30,169 @@ include("connect.php");
     <link rel="stylesheet" href="assets/css/nice-select.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <style>
-        body{margin-top:20px;
-background:#eee;
-}
+        body {
+            margin-top: 20px;
+            background: #eee;
+        }
 
-/* WRAPPERS */
-#wrapper {
-  width: 100%;
-  overflow-x: hidden;
-}
-.wrapper {
-  padding: 0 20px;
-}
-.wrapper-content {
-  padding: 20px 10px 40px;
-}
-#page-wrapper {
-  padding: 0 15px;
-  min-height: 568px;
-  position: relative !important;
-}
-@media (min-width: 768px) {
-  #page-wrapper {
-    position: inherit;
-    margin: 0 0 0 240px;
-    min-height: 2002px;
-  }
-}
+        /* WRAPPERS */
+        #wrapper {
+            width: 100%;
+            overflow-x: hidden;
+        }
 
-/* Payments */
-.payment-card {
-  background: #ffffff;
-  padding: 20px;
-  margin-bottom: 25px;
-  border: 1px solid #e7eaec;
-}
-.payment-icon-big {
-  font-size: 60px;
-  color: #d1dade;
-}
-.payments-method.panel-group .panel + .panel {
-  margin-top: -1px;
-}
-.payments-method .panel-heading {
-  padding: 15px;
-}
-.payments-method .panel {
-  border-radius: 0;
-}
-.payments-method .panel-heading h5 {
-  margin-bottom: 5px;
-}
-.payments-method .panel-heading i {
-  font-size: 26px;
-}
+        .wrapper {
+            padding: 0 20px;
+        }
 
-.payment-icon-big {
-    font-size: 60px !important;
-    color: #d1dade;
-}
+        .wrapper-content {
+            padding: 20px 10px 40px;
+        }
 
-.form-control,
-.single-line {
-  background-color: #FFFFFF;
-  background-image: none;
-  border: 1px solid #e5e6e7;
-  border-radius: 1px;
-  color: inherit;
-  display: block;
-  padding: 6px 12px;
-  transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
-  width: 100%;
-  font-size: 14px;
-}
-.text-navy {
-    color: #1ab394;
-}
-.text-success {
-    color: #1c84c6;
-}
-.text-warning {
-    color: #f8ac59;
-}
-.ibox {
-  clear: both;
-  margin-bottom: 25px;
-  margin-top: 0;
-  padding: 0;
-}
-.ibox.collapsed .ibox-content {
-  display: none;
-}
-.ibox.collapsed .fa.fa-chevron-up:before {
-  content: "\f078";
-}
-.ibox.collapsed .fa.fa-chevron-down:before {
-  content: "\f077";
-}
-.ibox:after,
-.ibox:before {
-  display: table;
-}
-.ibox-title {
-  -moz-border-bottom-colors: none;
-  -moz-border-left-colors: none;
-  -moz-border-right-colors: none;
-  -moz-border-top-colors: none;
-  background-color: #ffffff;
-  border-color: #e7eaec;
-  border-image: none;
-  border-style: solid solid none;
-  border-width: 3px 0 0;
-  color: inherit;
-  margin-bottom: 0;
-  padding: 14px 15px 7px;
-  min-height: 48px;
-}
-.ibox-content {
-  background-color: #ffffff;
-  color: inherit;
-  padding: 15px 20px 20px 20px;
-  border-color: #e7eaec;
-  border-image: none;
-  border-style: solid solid none;
-  border-width: 1px 0;
-}
-.ibox-footer {
-  color: inherit;
-  border-top: 1px solid #e7eaec;
-  font-size: 90%;
-  background: #ffffff;
-  padding: 10px 15px;
-}
-.text-danger {
-    color: #ed5565;
-}
+        #page-wrapper {
+            padding: 0 15px;
+            min-height: 568px;
+            position: relative !important;
+        }
+
+        @media (min-width: 768px) {
+            #page-wrapper {
+                position: inherit;
+                margin: 0 0 0 240px;
+                min-height: 2002px;
+            }
+        }
+
+        /* Payments */
+        .payment-card {
+            background: #ffffff;
+            padding: 20px;
+            margin-bottom: 25px;
+            border: 1px solid #e7eaec;
+        }
+
+        .payment-icon-big {
+            font-size: 60px;
+            color: #d1dade;
+        }
+
+        .payments-method.panel-group .panel+.panel {
+            margin-top: -1px;
+        }
+
+        .payments-method .panel-heading {
+            padding: 15px;
+        }
+
+        .payments-method .panel {
+            border-radius: 0;
+        }
+
+        .payments-method .panel-heading h5 {
+            margin-bottom: 5px;
+        }
+
+        .payments-method .panel-heading i {
+            font-size: 26px;
+        }
+
+        .payment-icon-big {
+            font-size: 60px !important;
+            color: #d1dade;
+        }
+
+        .form-control,
+        .single-line {
+            background-color: #FFFFFF;
+            background-image: none;
+            border: 1px solid #e5e6e7;
+            border-radius: 1px;
+            color: inherit;
+            display: block;
+            padding: 6px 12px;
+            transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+            width: 100%;
+            font-size: 14px;
+        }
+
+        .text-navy {
+            color: #1ab394;
+        }
+
+        .text-success {
+            color: #1c84c6;
+        }
+
+        .text-warning {
+            color: #f8ac59;
+        }
+
+        .ibox {
+            clear: both;
+            margin-bottom: 25px;
+            margin-top: 0;
+            padding: 0;
+        }
+
+        .ibox.collapsed .ibox-content {
+            display: none;
+        }
+
+        .ibox.collapsed .fa.fa-chevron-up:before {
+            content: "\f078";
+        }
+
+        .ibox.collapsed .fa.fa-chevron-down:before {
+            content: "\f077";
+        }
+
+        .ibox:after,
+        .ibox:before {
+            display: table;
+        }
+
+        .ibox-title {
+            -moz-border-bottom-colors: none;
+            -moz-border-left-colors: none;
+            -moz-border-right-colors: none;
+            -moz-border-top-colors: none;
+            background-color: #ffffff;
+            border-color: #e7eaec;
+            border-image: none;
+            border-style: solid solid none;
+            border-width: 3px 0 0;
+            color: inherit;
+            margin-bottom: 0;
+            padding: 14px 15px 7px;
+            min-height: 48px;
+        }
+
+        .ibox-content {
+            background-color: #ffffff;
+            color: inherit;
+            padding: 15px 20px 20px 20px;
+            border-color: #e7eaec;
+            border-image: none;
+            border-style: solid solid none;
+            border-width: 1px 0;
+        }
+
+        .ibox-footer {
+            color: inherit;
+            border-top: 1px solid #e7eaec;
+            font-size: 90%;
+            background: #ffffff;
+            padding: 10px 15px;
+        }
+
+        .text-danger {
+            color: #ed5565;
+        }
+        .paymentClass{
+            position: fixed;
+            left: 50%;
+            top: 45%;
+        }
     </style>
 
 </head>
@@ -200,7 +228,7 @@ background:#eee;
                                 <ul id="navigation">
                                     <li><a href="home.php">Home</a></li>
                                     <li><a href="about.php">About</a></li>
-                                    
+
                                     <li><a href="execirse.php">Execirse</a></li>
 
                                     <li><a href="courses.php">Courses</a></li>
@@ -226,105 +254,86 @@ background:#eee;
     </header>
     <br><br><br><br><br><br><br><br><br>
     <main>
-     <section>
-     <?php
-            include('connect.php');
-            // When form submitted, insert values into the database.
+        <section>
 
+            <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+            <div class="container">
+                <div class="wrapper wrapper-content animated fadeInRight">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="payment-card">
+                                <i class="fa fa-cc-visa payment-icon-big text-success"></i>
+                                <h2>
+                                    **** **** **** 1060
+                                </h2>
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <small>
+                                            <strong>Expiry date:</strong> 10/16
+                                        </small>
+                                    </div>
+                                    <div class="col-sm-6 text-right">
+                                        <small>
+                                            <strong>Name:</strong> David
+                                        </small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="payment-card">
+                                <i class="fa fa-cc-mastercard payment-icon-big text-warning"></i>
+                                <h2>
+                                    **** **** **** 7002
+                                </h2>
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <small>
+                                            <strong>Expiry date:</strong> 10/16
+                                        </small>
+                                    </div>
+                                    <div class="col-sm-6 text-right">
+                                        <small>
+                                            <strong>Name:</strong> Anna Smith
+                                        </small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="payment-card">
+                                <i class="fa fa-cc-discover payment-icon-big text-danger"></i>
+                                <h2>
+                                    **** **** **** 3466
+                                </h2>
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <small>
+                                            <strong>Expiry date:</strong> 10/16
+                                        </small>
+                                    </div>
+                                    <div class="col-sm-6 text-right">
+                                        <small>
+                                            <strong>Name:</strong> Morgan
+                                        </small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
-            if (isset($_POST['submit'])) {
-                $nameoncard = $_SESSION['nameoncard'];
-                $creditcardno = $_POST['creditcardno'];
-                $expirymonth = $_POST['expirymonth'];
-                $CVV = $_POST['CVV'];
-                $query = "INSERT INTO orders(nameoncard,creditcardno, expirymonth, CVV) VALUE('$nameoncard','$creditcardno','$expirymonth','$CVV')";
-                $exe = mysqli_query($conn, $query);
-                if ($exe) {
-                    echo "Payment has recieved we'll contact you as soon as possible.";
-                    header("location:home.php");
-                } else {
-                    echo mysqli_error($conn);
-                }
-            }
-            ?>
-     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
-<div class="container">
-<div class="wrapper wrapper-content animated fadeInRight">
-    <div class="row">
-        <div class="col-md-4">
-            <div class="payment-card">
-                <i class="fa fa-cc-visa payment-icon-big text-success"></i>
-                <h2>
-                    **** **** **** 1060
-                </h2>
-                <div class="row">
-                    <div class="col-sm-6">
-                        <small>
-                            <strong>Expiry date:</strong> 10/16
-                        </small>
                     </div>
-                    <div class="col-sm-6 text-right">
-                        <small>
-                            <strong>Name:</strong> David
-                        </small>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="payment-card">
-                <i class="fa fa-cc-mastercard payment-icon-big text-warning"></i>
-                <h2>
-                    **** **** **** 7002
-                </h2>
-                <div class="row">
-                    <div class="col-sm-6">
-                        <small>
-                            <strong>Expiry date:</strong> 10/16
-                        </small>
-                    </div>
-                    <div class="col-sm-6 text-right">
-                        <small>
-                            <strong>Name:</strong> Anna Smith
-                        </small>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="payment-card">
-                <i class="fa fa-cc-discover payment-icon-big text-danger"></i>
-                <h2>
-                    **** **** **** 3466
-                </h2>
-                <div class="row">
-                    <div class="col-sm-6">
-                        <small>
-                            <strong>Expiry date:</strong> 10/16
-                        </small>
-                    </div>
-                    <div class="col-sm-6 text-right">
-                        <small>
-                            <strong>Name:</strong> Morgan
-                        </small>
-                    </div>
-                </div>
-            </div>
-        </div>
+                    <div class="row">
 
-    </div>
-    <div class="row">
+                        <div class="col-lg-12">
 
-        <div class="col-lg-12">
+                            <div class="ibox">
+                                <div class="ibox-title">
+                                    <h1 style="color: black;"> Payment method </h1>
+                                </div>
+                                <div class="ibox-content">
 
-            <div class="ibox">
-                <div class="ibox-title">
-                   <h1 style="color: black;"> Payment method </h1>
-                </div>
-                <div class="ibox-content">
-
-                    <div class="panel-group payments-method" id="accordion">
-                        <!-- <div class="panel panel-default">
+                                    <div class="panel-group payments-method" id="accordion">
+                                        <!-- <div class="panel panel-default">
                             <div class="panel-heading">
                                 <div class="pull-right">
                                     <i class="fa fa-cc-paypal text-success"></i>
@@ -357,74 +366,104 @@ background:#eee;
                                      </div>
                             </div>
                         </div> -->
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <div class="pull-right">
-                                    <i class="fa fa-cc-visa payment text-success"></i>
-                                    <!-- <i class="p-1 fa fa-cc-amex text-success"></i> -->
-                                    <i class="p-1 fa fa-cc-mastercard text-warning"></i>
-                                    <i class="p-1 fa fa-cc-discover text-danger"></i>
-                                </div>
-                                <h5 class="panel-title">
-                                    <a data-toggle="collapse" style="color: red;" data-parent="#accordion" href="#collapseTwo"><strong>By Credit Card</strong></a>
-                                </h5>
-                            </div>
-                            <div id="collapseTwo" class="panel-collapse collapse in">
-                                <div class="panel-body">
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading">
+                                                <div class="pull-right">
+                                                    <i class="fa fa-cc-visa payment text-success"></i>
+                                                    <!-- <i class="p-1 fa fa-cc-amex text-success"></i> -->
+                                                    <i class="p-1 fa fa-cc-mastercard text-warning"></i>
+                                                    <i class="p-1 fa fa-cc-discover text-danger"></i>
+                                                </div>
+                                                <h5 class="panel-title">
+                                                    <a data-toggle="collapse" style="color: red;" data-parent="#accordion" href="#collapseTwo"><strong>By Credit Card</strong></a>
+                                                </h5>
+                                            </div>
+                                            <div id="collapseTwo" class="panel-collapse collapse in">
+                                                <div class="panel-body">
 
-                                    <div class="row">
-                                        <div class="col-md-4">
-                                            <h2>Summary</h2>
-                                           
-                                            <p style="color: black;" class="m-t">
-                                            Your Informations have been Securited – as any expert should tell you – isn’t just about keeping your data secret: it’s also about ensuring it is available when you need it, and that it can be believed. In the industry jargon you ensure information’s.
+                                                    <div class="row">
+                                                        <div class="col-md-4">
+                                                            <h2>Summary</h2>
 
-                                            </p>
-                                           
-                                        </div>
-                                        <div class="col-md-8">
+                                                            <p style="color: black;" class="m-t">
+                                                                Your Informations have been Securited – as any expert should tell you – isn’t just about keeping your data secret: it’s also about ensuring it is available when you need it, and that it can be believed. In the industry jargon you ensure information’s.
 
-                                            <form role="form"action="#" method="post" class="form-group " id="payment-form" data-aos="fade-up" data-aos-delay="400" role="form">
-                                               <div class="row">
-                                                    <div class="col-xs-12">
-                                                        <div class="form-group">
-                                                            <label style="color: black;">NAME OF CARD</label>
-                                                            <input type="text" class="form-control" name="nameoncard" placeholder="NAME ON CARD">
+                                                            </p>
+
                                                         </div>
+                                                        <?php
+                                                        include('connect.php');
+                                                        // When form submitted, insert values into the database.
+                                                        if (isset($_POST['submit'])) {
+                                                            $nameoncard = $_POST['nameoncard'] ?? NULL;
+                                                            $creditcardno = $_POST['creditcardno'];
+                                                            $expirymonth = $_POST['expirymonth'];
+                                                            $CVV = $_POST['CVV'];
+                                                            $query = "INSERT INTO orders(nameoncard,creditcardno, expirymonth, CVV) 
+                                                       VALUE('$nameoncard','$creditcardno','$expirymonth','$CVV')";
+                                                            $exe = mysqli_query($conn, $query);
+                                                            if ($exe) {
+                                                                echo "<p style='color: black;
+                                                                position: relative;
+                                                                top: 115px;
+                                                                left: 306px;'>
+                                                                ".$nameoncard." ,Your payment has recieved we'll contact you as soon as possible.</p>";
+                                                                
+                                                                // header("location:home.php");
+                                                            } else {
+                                                                echo mysqli_error($conn);
+                                                            }
+                                                        }
+                                                        ?>
+                                                        <br><br><br>
+                                                        <div class="col-md-8 paymentClass">
+
+                                                            <form role="form" action="#" method="post" class="form-group " id="payment-form" data-aos="fade-up" data-aos-delay="400" role="form">
+                                                                <div class="row">
+                                                                    <div class="col-xs-12">
+                                                                        <div class="form-group">
+                                                                            <label style="color: black;">NAME OF CARD</label>
+                                                                            <input type="text" class="form-control" name="nameoncard" placeholder="NAME ON CARD">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="row">
+                                                                    <div class="col-xs-12">
+                                                                        <div class="form-group">
+                                                                            <label style="color: black;">EXPIRATION DATE</label>
+                                                                            <input type="text" class="form-control" name="expirymonth" placeholder="MM / YY" required="">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-xs-5 col-md-5 pull-right">
+                                                                        <div class="form-group">
+                                                                            <label style="color: black;">CVV CODE</label>
+                                                                            <input type="text" class="form-control" name="CVV" placeholder="CVV" required="">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="row">
+                                                                    <div class="col-xs-12">
+                                                                        <div class="form-group">
+                                                                            <label style="color: black;">CARD NUMBER</label>
+                                                                            <div class="input-group">
+                                                                                <input type="text" class="form-control" name="creditcardno" placeholder="Valid Card Number" required="">
+                                                                                <span class="input-group-addon"><i style="font-size: 26px;" class="pl-3  fa fa-credit-card"></i></span>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="row">
+                                                                    <div class="col-xs-12">
+                                                                        <button class="mt-5 btn btn-danger" name="submit" type="submit">Make a payment!</button>
+                                                                    </div>
+                                                                </div>
+                                                            </form>
+                                                        </div>
+
                                                     </div>
                                                 </div>
-                                               
-                                                <div class="row">
-                                                    <div class="col-xs-12">
-                                                        <div class="form-group">
-                                                            <label style="color: black;">EXPIRATION DATE</label>
-                                                            <input type="text" class="form-control" name="expirymonth" placeholder="MM / YY" required="">
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-xs-5 col-md-5 pull-right">
-                                                        <div class="form-group">
-                                                            <label style="color: black;">CV CODE</label>
-                                                            <input type="text" class="form-control" name="CVV" placeholder="CVC" required="">
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="row">
-                                                    <div class="col-xs-12">
-                                                        <div class="form-group">
-                                                            <label style="color: black;">CARD NUMBER</label>
-                                                            <div class="input-group">
-                                                                <input type="text" class="form-control" name="creditcardno" placeholder="Valid Card Number" required="">
-                                                                <span class="input-group-addon"><i style="font-size: 26px;" class="pl-3  fa fa-credit-card"></i></span>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="row">
-                                                    <div class="col-xs-12">
-                                                        <button class="mt-3 btn btn-danger" type="submit">Make a payment!</button>
-                                                    </div>
-                                                </div>
-                                            </form>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -433,81 +472,77 @@ background:#eee;
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-</div>
-</div>
-    
-     </section>
+
+        </section>
 
     </main>
 
 </body>
 
 <footer>
-        <!--? Footer Start-->
-        <div class="footer-area black-bg">
-            <div class="container">
-                <div class="footer-top footer-padding">
-                    <!-- Footer Menu -->
-                    <div class="row">
-                        <div class="col-xl-12">
-                            <div class="single-footer-caption mb-50 text-center">
-                                <!-- logo -->
-                                <div class="footer-logo wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
-                                    <a href="index.html"><img src="img/TT.png" alt=""></a>
-                                </div>
-                                <!-- Menu -->
-                                <!-- Header Start -->
-                                <div class="header-area main-header2 wow fadeInUp" data-wow-duration="2s" data-wow-delay=".4s">
-                                    <div class="main-header main-header2">
-                                        <div class="menu-wrapper menu-wrapper2">
-                                            <!-- Main-menu -->
-                                            <div class="main-menu main-menu2 text-center">
-                                                <nav>
-                                                    <ul>
-                                                        <li><a href="home.php">Home</a></li>
-                                                        <li><a href="about.php">About</a></li>
-                                                        <li><a href="execirse.php">Execirse</a></li>
-                                                        <li><a href="courses.php">Courses</a></li>
-                                                        <li><a href="blog.php">Pricing</a></li>
-                                                        <li><a href="Account.php">Account</a></li>
-                                                        <li><a href="contact.php">Contact</a></li>
-                                                    </ul>
-                                                </nav>
-                                            </div>
+    <!--? Footer Start-->
+    <div class="footer-area black-bg">
+        <div class="container">
+            <div class="footer-top footer-padding">
+                <!-- Footer Menu -->
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="single-footer-caption mb-50 text-center">
+                            <!-- logo -->
+                            <div class="footer-logo wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
+                                <a href="index.html"><img src="img/TT.png" alt=""></a>
+                            </div>
+                            <!-- Menu -->
+                            <!-- Header Start -->
+                            <div class="header-area main-header2 wow fadeInUp" data-wow-duration="2s" data-wow-delay=".4s">
+                                <div class="main-header main-header2">
+                                    <div class="menu-wrapper menu-wrapper2">
+                                        <!-- Main-menu -->
+                                        <div class="main-menu main-menu2 text-center">
+                                            <nav>
+                                                <ul>
+                                                    <li><a href="home.php">Home</a></li>
+                                                    <li><a href="about.php">About</a></li>
+                                                    <li><a href="execirse.php">Execirse</a></li>
+                                                    <li><a href="courses.php">Courses</a></li>
+                                                    <li><a href="blog.php">Pricing</a></li>
+                                                    <li><a href="Account.php">Account</a></li>
+                                                    <li><a href="contact.php">Contact</a></li>
+                                                </ul>
+                                            </nav>
                                         </div>
                                     </div>
                                 </div>
-                                <!-- Header End -->
-                                <!-- social -->
-                                <div class="footer-social mt-30 wow fadeInUp" data-wow-duration="3s" data-wow-delay=".8s">
-                                    <a href="#"><i class="fab fa-youtube"></i></a>
-                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="#"><i class="fab fa-instagram"></i></a>
-                                </div>
                             </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Footer Bottom -->
-                <div class="footer-bottom">
-                    <div class="row d-flex align-items-center">
-                        <div class="col-lg-12">
-                            <div class="footer-copy-right text-center">
-                                <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                                    Copyright &copy;<script>
-                                        document.write(new Date().getFullYear());
-                                    </script> All rights reserved | <i class="fa fa-heart" aria-hidden="true"></i> <a href="#" target="_blank">By Myself Effort</a>
-                                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+                            <!-- Header End -->
+                            <!-- social -->
+                            <div class="footer-social mt-30 wow fadeInUp" data-wow-duration="3s" data-wow-delay=".8s">
+                                <a href="#"><i class="fab fa-youtube"></i></a>
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+            <!-- Footer Bottom -->
+            <div class="footer-bottom">
+                <div class="row d-flex align-items-center">
+                    <div class="col-lg-12">
+                        <div class="footer-copy-right text-center">
+                            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                                Copyright &copy;<script>
+                                    document.write(new Date().getFullYear());
+                                </script> All rights reserved | <i class="fa fa-heart" aria-hidden="true"></i> <a href="#" target="_blank">By Myself Effort</a>
+                                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <!-- Footer End-->
-    </footer>
+    </div>
+    <!-- Footer End-->
+</footer>
 
 <!-- Scroll Up -->
 <div id="back-top">

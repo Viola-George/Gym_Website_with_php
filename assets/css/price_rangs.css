@@ -81,7 +81,7 @@
         position: absolute; display: block;
         top: 0; left: 0;
         cursor: default;
-        white-space: nowrap;
+        var(--secondary-color);-space: nowrap;
     }
 
 .irs-grid {
@@ -104,7 +104,7 @@
     .irs-grid-text {
         position: absolute;
         bottom: 0; left: 0;
-        white-space: nowrap;
+        var(--secondary-color);-space: nowrap;
         text-align: center;
         font-size: 9px; line-height: 9px;
         padding: 0 3px;

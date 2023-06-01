@@ -790,7 +790,7 @@ TABLE.gj-grid THEAD TH {
 TABLE.gj-grid.autogrow-header-row THEAD TH {
     overflow: auto;
     text-overflow: initial;
-    white-space: pre-wrap;
+    var(--secondary-color);-space: pre-wrap;
     -ms-word-break: break-word;
     word-break: break-word;
 }
@@ -803,7 +803,7 @@ TABLE.gj-grid > tbody > tr > td {
 table.gj-grid tbody div[data-role="display"] {
     vertical-align: middle;
     text-indent: 0;
-    white-space: pre-wrap;
+    var(--secondary-color);-space: pre-wrap;
     -ms-word-break: break-word;
     word-break: break-word;
 }
@@ -811,7 +811,7 @@ table.gj-grid tbody div[data-role="display"] {
 table.gj-grid.fixed-body-rows tbody div[data-role="display"] {
     overflow: hidden;
     text-overflow: ellipsis;
-    white-space: nowrap;
+    var(--secondary-color);-space: nowrap;
     -ms-word-break: initial;
     word-break: initial;
 }
@@ -880,7 +880,7 @@ table.gj-grid-bootstrap tbody tr td div[data-role="display"] {
     position: relative;
     border: 1px solid #e0e0e0;
     border-collapse: collapse;
-    white-space: nowrap;
+    var(--secondary-color);-space: nowrap;
     font-size: 13px;
     font-family: "Roboto","Helvetica","Arial",sans-serif;
     background-color: #fff;
@@ -1683,14 +1683,14 @@ ul.gj-list-md li.disabled > [data-role="wrapper"] > [data-role="expander"] {
     content: "\e91f";
     font-size: 14px;
     font-weight: bold;
-    white-space: pre;
+    var(--secondary-color);-space: pre;
 }
 
 .gj-checkbox-material-icons input[type="checkbox"]:indeterminate + span:after {
     content: "\e921";
     font-size: 14px;
     font-weight: bold;
-    white-space: pre;
+    var(--secondary-color);-space: pre;
 }
 
 /* Glyphicons */

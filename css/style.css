@@ -230,7 +230,7 @@ html, body{
   color: #ffffff;
   width: 50%;
   margin-left: 48%;
-  white-space:pre-line;
+  var(--secondary-color);-space:pre-line;
 }
 
 /* end of styling for contact in index.php form */

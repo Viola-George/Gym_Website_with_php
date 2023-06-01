@@ -1632,7 +1632,7 @@ function parseOffset(offset, popperOffsets, referenceOffsets, basePlacement) {
   }));
 
   if (fragments[divider] && fragments[divider].indexOf(',') === -1) {
-    console.warn('Offsets separated by white space(s) are deprecated, use a comma (,) instead.');
+    console.warn('Offsets separated by var(--secondary-color); space(s) are deprecated, use a comma (,) instead.');
   }
 
   // If divider is found, we divide the list of values and operands to divide
@@ -1923,7 +1923,7 @@ var modifiers = {
    * `width`. In case of `left` or `right`, it will be the height.
    *
    * You can provide a single value (as `Number` or `String`), or a pair of values
-   * as `String` divided by a comma or one (or more) white spaces.<br />
+   * as `String` divided by a comma or one (or more) var(--secondary-color); spaces.<br />
    * The latter is a deprecated method because it leads to confusion and will be
    * removed in v2.<br />
    * Additionally, it accepts additions and subtractions between different units.

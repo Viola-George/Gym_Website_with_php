@@ -234,7 +234,7 @@
 
         .meta-bottom {
             p {
-                // color: $white_color;
+                // color: $var(--secondary-color);_color;
             }
         }
 
@@ -250,7 +250,7 @@
     }
 
     a {
-        // color: $white_color;
+        // color: $var(--secondary-color);_color;
         font-size: 20px;
         font-weight: 600;
 
@@ -668,7 +668,7 @@
         bottom: -10px;
         left: 10px;
         display: block;
-        color: $white_color;
+        color: $var(--secondary-color);_color;
         background-color: $theme-color;
         padding: 8px 15px;
         border-radius: 5px;
@@ -682,7 +682,7 @@
         h3 {
             font-size: 22px;
             font-weight: 600;
-            color: $white_color;
+            color: $var(--secondary-color);_color;
             margin-bottom: 0;
             line-height: 1.2;
 
@@ -694,7 +694,7 @@
         p {
             font-size: 18px;
             margin-bottom: 0;
-            color: $white_color;
+            color: $var(--secondary-color);_color;
 
             @media(min-width: 768px) {
                 font-size: 18px;
@@ -803,7 +803,7 @@
         .input-group {
 
             button {
-                background: $white_color;
+                background: $var(--secondary-color);_color;
                 border-left: 0;
                 border: 1px solid #f0e9ff;
                 padding: 4px 15px;
@@ -875,7 +875,7 @@
 
                     // color: $title_color;
                     &:hover {
-                        color: $white_color;
+                        color: $var(--secondary-color);_color;
                     }
 
                 }
@@ -1079,7 +1079,7 @@
 
     &:hover {
         // background-color: $baseColor;
-        // color: $white_color;
+        // color: $var(--secondary-color);_color;
     }
 }
 
@@ -1169,7 +1169,7 @@
     }
 
     .quotes {
-        background: $white_color;
+        background: $var(--secondary-color);_color;
         padding: 15px 15px 15px 20px;
         border-left: 2px solid;
 

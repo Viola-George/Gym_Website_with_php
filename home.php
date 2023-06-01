@@ -29,7 +29,13 @@ include("connect.php");
     <link rel="stylesheet" href="assets/css/slick.css">
     <link rel="stylesheet" href="assets/css/nice-select.css">
     <link rel="stylesheet" href="assets/css/style.css">
-
+<style>
+    #icon{
+        height: 30px;
+        cursor: pointer;
+        margin-bottom: 10px;
+    }
+</style>
 </head>
 
 <body class="black-bg">
@@ -72,6 +78,7 @@ include("connect.php");
                                     <li><a href="contact.php">Contact</a></li>
                                     <li><a href="Account.php">Account</a></li>
                                     <li><a href="logout.php">logout</a></li>
+                                    <li><img id="icon" src="images/moon.png"></li>
                                 </ul>
                             </nav>
                         </div>
@@ -695,14 +702,15 @@ include("connect.php");
 
 
             if (isset($_POST['submit'])) {
-                $name = $_SESSION['name'];
+                $name = $_POST['name']?? NULL;
                 $email = $_POST['email'];
                 $message = $_POST['message'];
                 $query = "INSERT INTO contactus(name, email, message) VALUE('$name','$email','$message')";
                 $exe = mysqli_query($conn, $query);
                 if ($exe) {
-                    echo "message recieved we'll contact you as soon as possible.";
-                    header("location:home.php");
+                    echo "<p style='color:black;position: relative;top:360px;left:50px;'>
+                    ".$name." ,Your message recieved. we'll contact you as soon as possible.</p>";
+                    //header("location:home.php");
                 } else {
                     echo mysqli_error($conn);
                 }
@@ -851,6 +859,8 @@ include("connect.php");
     <!-- Jquery Plugins, main Jquery -->
     <script src="./assets/js/plugins.js"></script>
     <script src="./assets/js/main.js"></script>
+    <script>
+    </script>
 
 </body>
 

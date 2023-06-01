@@ -161,7 +161,7 @@ button::-moz-focus-inner {
   color: #CCC;
   font-size: 12px;
   line-height: 18px;
-  white-space: nowrap; }
+  var(--secondary-color);-space: nowrap; }
 
 .mfp-arrow {
   position: absolute;

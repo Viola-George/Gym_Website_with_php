@@ -92,7 +92,7 @@ a {
 .cd-words-wrapper b {
   display: inline-block;
   position: absolute;
-  white-space: nowrap;
+  var(--secondary-color);-space: nowrap;
   left: 0;
   top: 0;
 }
