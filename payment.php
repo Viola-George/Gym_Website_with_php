@@ -400,7 +400,7 @@ include("connect.php");
                                                             $creditcardno = $_POST['creditcardno'];
                                                             $expirymonth = $_POST['expirymonth'];
                                                             $CVV = $_POST['CVV'];
-                                                            $query = "INSERT INTO orders(nameoncard,creditcardno, expirymonth, CVV) 
+                                                            $query = "INSERT INTO courses(nameoncard,creditcardno, expirymonth, CVV) 
                                                        VALUE('$nameoncard','$creditcardno','$expirymonth','$CVV')";
                                                             $exe = mysqli_query($conn, $query);
                                                             if ($exe) {

@@ -14,6 +14,4 @@ if($conn){
     //echo"connection not established";
 }
 // a query statement
-mysqli_select_db($conn,'platinumgym');
-
-?>
+mysqli_select_db($conn,'heilthylife');
