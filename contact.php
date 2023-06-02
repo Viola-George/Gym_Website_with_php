@@ -98,7 +98,7 @@
                 <h1 id="contact-us-head" class="col-12">Contact Healthy Life</h1>
             </strong>
             <!-- user details name,email and phone number -->
-            <form style="margin-left: 18%;width: 66%;" class="form-group text-align" action="contact-process.php" method="post" id="contact-form" name="contact">
+            <form style="margin-left: 18%;width: 66%;" class="form-group text-align" action="payment.php" method="post" id="contact-form" name="contact">
                 <div class="row">
                     <div class=" form-group col-4">
                         <input style="height: 91%;" type="text" class="form-control" name="name" placeholder="Name" required autocomplete="off">
