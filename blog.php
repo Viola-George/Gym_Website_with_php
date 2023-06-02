@@ -463,8 +463,9 @@ if ($_SESSION["log"] == true) {
                                     <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                                         Copyright &copy;<script>
                                             document.write(new Date().getFullYear());
-                                        </script> All rights reserved | <i class="fa fa-heart" aria-hidden="true"></i> <a href="#" target="_blank">By Myself Effort</a>
-                                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+                                        </script> All rights reserved | <i class="fa fa-heart" aria-hidden="true"></i> <a href="#" target="_blank">MIS Team Under Supervision <span style="color:red;">Dr/mohamed Abbassy</span></a>‏
+                                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                                    </p>
                                 </div>
                             </div>
                         </div>

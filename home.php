@@ -29,13 +29,30 @@ include("connect.php");
     <link rel="stylesheet" href="assets/css/slick.css">
     <link rel="stylesheet" href="assets/css/nice-select.css">
     <link rel="stylesheet" href="assets/css/style.css">
-<style>
-    #icon{
-        height: 30px;
-        cursor: pointer;
-        margin-bottom: 10px;
-    }
-</style>
+    <style>
+        #icon {
+            height: 30px;
+            cursor: pointer;
+            margin-bottom: 10px;
+        }
+
+        .darkmode-toggle {
+            width: 3rem;
+            height: 3rem;
+            position: fixed;
+            border-radius: 50%;
+            border: none;
+            right: 60px;
+            top: 84%;
+            left: unset;
+            cursor: pointer;
+            transition: all 0.5s ease;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 11;
+        }
+    </style>
 </head>
 
 <body class="black-bg">
@@ -78,7 +95,7 @@ include("connect.php");
                                     <li><a href="contact.php">Contact</a></li>
                                     <li><a href="Account.php">Account</a></li>
                                     <li><a href="logout.php">logout</a></li>
-                                    <li><img id="icon" src="images/moon.png"></li>
+                                    <!-- <li><img id="icon" src="images/moon.png"></li> -->
                                 </ul>
                             </nav>
                         </div>
@@ -108,7 +125,7 @@ include("connect.php");
                             <div class="col-xl-9 col-lg-9 col-md-10">
                                 <div class="hero__caption">
                                     <span data-animation="fadeInLeft" data-delay="0.1s">Hi This is Tuitions Tonight</span>
-                                    <h1 data-animation="fadeInLeft" data-delay="0.4s">Gym Trainer</h1>
+                                    <h1 data-animation="fadeInLeft" data-delay="0.4s">Healthy Life</h1>
                                     <a href="courses.php" class="border-btn hero-btn" data-animation="fadeInLeft" data-delay="0.8s">My Courses</a>
                                 </div>
                             </div>
@@ -484,156 +501,160 @@ include("connect.php");
             <div class="container">
                 <!-- Section Tittle -->
                 <div class="row justify-content-center">
-                     <div class="col-xl-12">
+                    <div class="col-xl-12">
                         <div class="section-tittle text-center mb-55 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".1s">
                             <h2>Diet Systems</h2>
                         </div>
                     </div>
                 </div>
-                <br><br><strong> <h1 style="color: #FF0000;position: relative;right: 50px; " class="p-3">For overweight</h1></strong>  <br><br>
+                <br><br><strong>
+                    <h1 style="color: #FF0000;position: relative;right: 50px; " class="p-3">For overweight</h1>
+                </strong> <br><br>
 
                 <div class="row">
-                <div class="col-sm-4">
-                <div class="properties mb-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
-        <div style="background-color: transparent;" class="card">
-      <div class="card-body">
-        <h3 style="color: white;" class="card-title">Intermittent Fasting</h3>
-        <p style="color: #7a7a7a;" class="card-text">Intermittent fasting is an eating pattern that cycles between periods of fasting and eating. It has been shown to have various health benefits and can aid in weight loss.</p>
-      </div>
-    </div>
+                    <div class="col-sm-4">
+                        <div class="properties mb-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
+                            <div style="background-color: transparent;" class="card">
+                                <div class="card-body">
+                                    <h3 style="color: white;" class="card-title">Intermittent Fasting</h3>
+                                    <p style="color: #7a7a7a;" class="card-text">Intermittent fasting is an eating pattern that cycles between periods of fasting and eating. It has been shown to have various health benefits and can aid in weight loss.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="properties mb-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
+
+                            <div style="background-color: transparent;" class="card">
+                                <div class="card-body">
+                                    <h3 style="color: white;" class="card-title">The low-calorie diet is a weight-loss approach that involves reducing calorie intake</h3>
+                                    <p style="color: #7a7a7a;" class="card-text">The individual is required to consume limited amounts of calories by reducing portion sizes or cutting back on high-fat and high-sugar foods.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="properties mb-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">
+
+                            <div style="background-color: transparent;" class="card">
+                                <div class="card-body">
+                                    <h3 style="color: white;" class="card-title">The vegetarian diet </h3>
+                                    <p style="color: #7a7a7a;" class="card-text">The vegetarian diet or strict vegetarian diet excludes meat and animal products and relies on vegetables, fruits, grains, nuts, and seeds as sources of food.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-  </div>
-  <div class="col-sm-4">
-  <div class="properties mb-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
-
-    <div style="background-color: transparent;" class="card">
-      <div class="card-body">
-        <h3 style="color: white;" class="card-title">The low-calorie diet is a weight-loss approach that involves reducing calorie intake</h3>
-        <p style="color: #7a7a7a;" class="card-text">The individual is required to consume limited amounts of calories by reducing portion sizes or cutting back on high-fat and high-sugar foods.</p>
-      </div>
-    </div>
-  </div>
-  </div>
-  <div class="col-sm-4">
-  <div class="properties mb-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">
-
-    <div style="background-color: transparent;" class="card">
-      <div class="card-body">
-        <h3 style="color: white;" class="card-title">The vegetarian diet </h3>
-        <p style="color: #7a7a7a;" class="card-text">The vegetarian diet or strict vegetarian diet excludes meat and animal products and relies on vegetables, fruits, grains, nuts, and seeds as sources of food.</p>
-      </div>
-    </div>
-  </div>
-  </div>
-</div>
-<div class="row">
-                <div class="col-sm-4">
-                <div class="properties mb-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
-
-    <div style="background-color: transparent;" class="card">
-      <div class="card-body">
-        <h3 style="color: white;" class="card-title">The high-protein diet </h3>
-        <p style="color: #7a7a7a;" class="card-text">The high-protein diet focuses on increasing protein intake, which is beneficial for muscle building and prolonged satiety..</p>
-      </div>
-    </div>
-                </div>
-  </div>
-  <div class="col-sm-4">
-  <div class="properties mb-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
-
-    <div style="background-color: transparent;" class="card">
-      <div class="card-body">
-        <h3 style="color: white;" class="card-title">The whole foods diet </h3>
-        <p style="color: #7a7a7a;" class="card-text">The high-protein diet focuses on increasing protein intake, which is beneficial for muscle building and prolonged satietyThe whole foods diet relies on consuming natural, unprocessed foods such as fruits, vegetables, whole grains, and healthy proteins. It aims to promote overall health and good nutrition.</p>
-      </div>
-    </div>
-  </div>
-  </div>
-  <div class="col-sm-4">
-  <div class="properties mb-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">
-
-    <div style="background-color: transparent;" class="card">
-      <div class="card-body">
-        <h3 style="color: white;" class="card-title">Ketogenic Diet</h3>
-        <p style="color: #7a7a7a;" class="card-text">The ketogenic diet is a low-carb, high-fat diet that has been shown to help with weight loss and improve certain health conditions. It involves reducing carbohydrate intake and replacing it with fat.</p>
-      </div>
-    </div>
-  </div>
-  </div>
-
-  <br><br><strong> <h1 style="color: #FF0000;position: relative;right: 50px; " class="p-5">For Underweight</h1></strong>   <br><br>
-<br><br>
-
                 <div class="row">
-                <div class="col-sm-4">
-                <div class="properties mb-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
-        <div style="background-color: transparent;" class="card">
-      <div class="card-body">
-        <h3 style="color: white;" class="card-title">Increase calorie intake</h3>
-        <p style="color: #7a7a7a;" class="card-text">You need to consume more calories than you burn each day. Increase your portion sizes and have snacks throughout the day.</p>
-      </div>
-    </div>
-                </div>
-  </div>
-  <div class="col-sm-4">
-  <div class="properties mb-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
+                    <div class="col-sm-4">
+                        <div class="properties mb-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
 
-    <div style="background-color: transparent;" class="card">
-      <div class="card-body">
-        <h3 style="color: white;" class="card-title">Eat balanced meals</h3>
-        <p style="color: #7a7a7a;" class="card-text">Your meals should include a variety of nutrients, such as proteins, carbohydrates, and healthy fats. Protein sources include meats, fish, eggs, dairy, and nuts. Carbohydrate sources include rice, bread, potatoes, and whole grains. Healthy fats can be obtained from olive oil, avocado, and nuts..</p>
-      </div>
-    </div>
-  </div>
-  </div>
-  <div class="col-sm-4">
-  <div class="properties mb-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">
+                            <div style="background-color: transparent;" class="card">
+                                <div class="card-body">
+                                    <h3 style="color: white;" class="card-title">The high-protein diet </h3>
+                                    <p style="color: #7a7a7a;" class="card-text">The high-protein diet focuses on increasing protein intake, which is beneficial for muscle building and prolonged satiety..</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="properties mb-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
 
-    <div style="background-color: transparent;" class="card">
-      <div class="card-body">
-        <h3 style="color: white;" class="card-title">Have larger meals </h3>
-        <p style="color: #7a7a7a;" class="card-text">Try to increase the size of your main meals. You may need to eat larger portions than usual to increase calorie intake..</p>
-      </div>
-    </div>
-  </div>
-  </div>
-</div>
-<div class="row">
-                <div class="col-sm-4">
-                <div class="properties mb-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
+                            <div style="background-color: transparent;" class="card">
+                                <div class="card-body">
+                                    <h3 style="color: white;" class="card-title">The whole foods diet </h3>
+                                    <p style="color: #7a7a7a;" class="card-text">The high-protein diet focuses on increasing protein intake, which is beneficial for muscle building and prolonged satietyThe whole foods diet relies on consuming natural, unprocessed foods such as fruits, vegetables, whole grains, and healthy proteins. It aims to promote overall health and good nutrition.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="properties mb-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">
 
-    <div style="background-color: transparent;" class="card">
-      <div class="card-body">
-        <h3 style="color: white;" class="card-title">Have snacks  </h3>
-        <p style="color: #7a7a7a;" class="card-text">Have healthy snacks between main meals. Snacks can include natural juices, fruits, yogurt, and nuts.</p>
-      </div>
-    </div>
-                </div>
-  </div>
-  <div class="col-sm-4">
-  <div class="properties mb-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
+                            <div style="background-color: transparent;" class="card">
+                                <div class="card-body">
+                                    <h3 style="color: white;" class="card-title">Ketogenic Diet</h3>
+                                    <p style="color: #7a7a7a;" class="card-text">The ketogenic diet is a low-carb, high-fat diet that has been shown to help with weight loss and improve certain health conditions. It involves reducing carbohydrate intake and replacing it with fat.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-    <div style="background-color: transparent;" class="card">
-      <div class="card-body">
-        <h3 style="color: white;" class="card-title">Consume calorie-rich beverages  </h3>
-        <p style="color: #7a7a7a;" class="card-text">Drink calorie-rich liquids such as natural juices, milk, and dense fruit smoothies. Avoid drinking fluids right before meals to stimulate appetite.</p>
-      </div>
-    </div>
-  </div>
-  </div>
-  <div class="col-sm-4">
-  <div class="properties mb-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">
+                    <br><br><strong>
+                        <h1 style="color: #FF0000;position: relative;right: 50px; " class="p-5">For Underweight</h1>
+                    </strong> <br><br>
+                    <br><br>
 
-    <div style="background-color: transparent;" class="card">
-      <div class="card-body">
-        <h3 style="color: white;" class="card-title">Exercise</h3>
-        <p style="color: #7a7a7a;" class="card-text">Engaging in strength training exercises such as weightlifting can help in gaining muscle mass and weight.</p>
-      </div>
-    </div>
-  </div>
-  </div>
-</div>
-               
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div class="properties mb-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
+                                <div style="background-color: transparent;" class="card">
+                                    <div class="card-body">
+                                        <h3 style="color: white;" class="card-title">Increase calorie intake</h3>
+                                        <p style="color: #7a7a7a;" class="card-text">You need to consume more calories than you burn each day. Increase your portion sizes and have snacks throughout the day.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="properties mb-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
+
+                                <div style="background-color: transparent;" class="card">
+                                    <div class="card-body">
+                                        <h3 style="color: white;" class="card-title">Eat balanced meals</h3>
+                                        <p style="color: #7a7a7a;" class="card-text">Your meals should include a variety of nutrients, such as proteins, carbohydrates, and healthy fats. Protein sources include meats, fish, eggs, dairy, and nuts. Carbohydrate sources include rice, bread, potatoes, and whole grains. Healthy fats can be obtained from olive oil, avocado, and nuts..</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="properties mb-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">
+
+                                <div style="background-color: transparent;" class="card">
+                                    <div class="card-body">
+                                        <h3 style="color: white;" class="card-title">Have larger meals </h3>
+                                        <p style="color: #7a7a7a;" class="card-text">Try to increase the size of your main meals. You may need to eat larger portions than usual to increase calorie intake..</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div class="properties mb-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
+
+                                <div style="background-color: transparent;" class="card">
+                                    <div class="card-body">
+                                        <h3 style="color: white;" class="card-title">Have snacks </h3>
+                                        <p style="color: #7a7a7a;" class="card-text">Have healthy snacks between main meals. Snacks can include natural juices, fruits, yogurt, and nuts.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="properties mb-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
+
+                                <div style="background-color: transparent;" class="card">
+                                    <div class="card-body">
+                                        <h3 style="color: white;" class="card-title">Consume calorie-rich beverages </h3>
+                                        <p style="color: #7a7a7a;" class="card-text">Drink calorie-rich liquids such as natural juices, milk, and dense fruit smoothies. Avoid drinking fluids right before meals to stimulate appetite.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="properties mb-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">
+
+                                <div style="background-color: transparent;" class="card">
+                                    <div class="card-body">
+                                        <h3 style="color: white;" class="card-title">Exercise</h3>
+                                        <p style="color: #7a7a7a;" class="card-text">Engaging in strength training exercises such as weightlifting can help in gaining muscle mass and weight.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
         </section>
         <!-- Blog Area End -->
         <!--? video_start -->
@@ -695,52 +716,49 @@ include("connect.php");
 
 
         <!-- CONTACT -->
+  
         <section class="pt-5 m-5 contact section" id="contact">
-            <?php
+        <?php
             include('connect.php');
             // When form submitted, insert values into the database.
 
 
             if (isset($_POST['submit'])) {
-                $name = $_POST['name']?? NULL;
+                $name = $_POST['name'] ?? NULL;
                 $email = $_POST['email'];
                 $message = $_POST['message'];
                 $query = "INSERT INTO contactus(name, email, message) VALUE('$name','$email','$message')";
                 $exe = mysqli_query($conn, $query);
                 if ($exe) {
-                    echo "<p style='color:black;position: relative;top:360px;left:50px;'>
-                    ".$name." ,Your message recieved. we'll contact you as soon as possible.</p>";
+                    echo "<p style='color: black;
+                    position: relative;
+                    top: 430px;
+                    left: 111px;'>
+                    " . $name . " ,Your message recieved. we'll contact you as soon as possible.</p>";
                     //header("location:home.php");
                 } else {
                     echo mysqli_error($conn);
                 }
             }
             ?>
-            <div style="background-color:white; margin: auto;justify-items: center;" class="p-5 m-1  section-bg2 d-flex align-items-center contact section container">
+                        <div class=" align-items-center container" style="background-color:white;justify-items: center;">
                 <div class="row">
 
-                    <div class="ml-auto col-lg-5 col-md-6 col-12">
-                        <h2 class="mb-4 pb-2" data-aos="fade-up" data-aos-delay="200">Feel free to ask anything</h2>
+                    <div class="m-auto p-5 col-lg-12 align-items-center justify-items: center; col-md-12 col-12">
+                        <h1 class="mb-4 pb-2" style="color: black;" data-aos="fade-up" data-aos-delay="200">Feel free to ask anything</h1>
 
-                        <form action="#" method="post" class="form-group " data-aos="fade-up" data-aos-delay="400" role="form">
-                            <input type="text" class="m-2 form-control" name="name" placeholder="Name">
+                        <form action="#" method="post" data-aos="fade-up" data-aos-delay="400" role="form" class="form-group m-5 ">
+                            <input type="text" name="name" placeholder="Name" class="m-3 pb-3 form-control">
 
-                            <input type="email" class="m-2 form-control" name="email" placeholder="Email">
+                            <input type="email" name="email" placeholder="Email" class="m-3 form-control">
 
-                            <textarea class="m-2 form-control" rows="5" name="message" placeholder="Message"></textarea>
+                            <textarea rows="5" name="message" placeholder="Message" style="height: 187px;" class="m-3 form-control"></textarea>
                             <br><br><br><br><br><br><br><br><br><br><br><br>
                             <button type="submit" class="btn form-control" id="submit-button" name="submit">Send Message</button>
                         </form>
                     </div>
 
-                    <div class="mx-auto  col-lg-5 col-md-6 col-12">
-                        <h2 class="mb-4" data-aos="fade-up" data-aos-delay="600">Where you can <span>find us</span></h2>
-
-                        <p data-aos="fade-up" data-aos-delay="800"><i class="fa fa-map-marker mr-1"></i>3rd Floor, City Mall, Mombasa, Kenya, 80118</p>
-                        <div class="google-map" data-aos="fade-up" data-aos-delay="900">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31839.533826484338!2d39.671047221477046!3d-4.0323132028069395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x18400da513b74519%3A0x4907b31e765cb224!2sF4L%20GYM%20%2F%20Fitness%20for%20Life%20Gym!5e0!3m2!1sen!2ske!4v1622110076416!5m2!1sen!2ske" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                        </div>
-                    </div>
+                   
 
                 </div>
             </div>
@@ -802,8 +820,9 @@ include("connect.php");
                                 <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                                     Copyright &copy;<script>
                                         document.write(new Date().getFullYear());
-                                    </script> All rights reserved | <i class="fa fa-heart" aria-hidden="true"></i> <a href="#" target="_blank">By Myself Effort</a>
-                                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+                                    </script> All rights reserved | <i class="fa fa-heart" aria-hidden="true"></i> <a href="#" target="_blank">MIS Team Under Supervision <span style="color:red;">Dr/mohamed Abbassy</span></a>‏
+                                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -859,8 +878,16 @@ include("connect.php");
     <!-- Jquery Plugins, main Jquery -->
     <script src="./assets/js/plugins.js"></script>
     <script src="./assets/js/main.js"></script>
+    <script src="https://unpkg.com/darkmode-js@1.3.4/lib/darkmode-js.js"></script>
+    <!-- <script src="js/darkmode-js.js"></script>
     <script>
-    </script>
+      new Darkmode({
+        bottom: '32px',
+        right: '32px',
+        time: '0.5s',
+        label: '🌓'
+      }).showWidget();
+    </script> -->
 
 </body>
 

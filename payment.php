@@ -188,7 +188,8 @@ include("connect.php");
         .text-danger {
             color: #ed5565;
         }
-        .paymentClass{
+
+        .paymentClass {
             position: fixed;
             left: 50%;
             top: 45%;
@@ -407,8 +408,8 @@ include("connect.php");
                                                                 position: relative;
                                                                 top: 115px;
                                                                 left: 306px;'>
-                                                                ".$nameoncard." ,Your payment has recieved we'll contact you as soon as possible.</p>";
-                                                                
+                                                                " . $nameoncard . " ,Your payment has recieved we'll contact you as soon as possible.</p>";
+
                                                                 // header("location:home.php");
                                                             } else {
                                                                 echo mysqli_error($conn);
@@ -533,8 +534,9 @@ include("connect.php");
                             <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                                 Copyright &copy;<script>
                                     document.write(new Date().getFullYear());
-                                </script> All rights reserved | <i class="fa fa-heart" aria-hidden="true"></i> <a href="#" target="_blank">By Myself Effort</a>
-                                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+                                </script> All rights reserved | <i class="fa fa-heart" aria-hidden="true"></i> <a href="#" target="_blank">MIS Team Under Supervision <span style="color:red;">Dr/mohamed Abbassy</span></a>‏
+                                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                            </p>
                         </div>
                     </div>
                 </div>

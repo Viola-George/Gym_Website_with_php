@@ -64,7 +64,7 @@
                                 <ul id="navigation">
                                     <li><a href="home.php">Home</a></li>
                                     <li><a href="about.php">About</a></li>
-                                    
+
                                     <li><a href="execirse.php">Execirse</a></li>
 
                                     <li><a href="courses.php">Courses</a></li>
@@ -95,7 +95,7 @@
         <!-- contact form template -->
         <div style=" margin: auto 0;" class="h-100 align-items-center justify-content-center " id="contact">
             <strong>
-                <h1 id="contact-us-head" class="col-12">Contact Fitness Gym</h1>
+                <h1 id="contact-us-head" class="col-12">Contact Healthy Life</h1>
             </strong>
             <!-- user details name,email and phone number -->
             <form style="margin-left: 18%;width: 66%;" class="form-group text-align" action="contact-process.php" method="post" id="contact-form" name="contact">
@@ -188,8 +188,9 @@
                                 <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                                     Copyright &copy;<script>
                                         document.write(new Date().getFullYear());
-                                    </script> All rights reserved | <i class="fa fa-heart" aria-hidden="true"></i> <a href="#" target="_blank">By Myself Effort</a>
-                                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+                                    </script> All rights reserved | <i class="fa fa-heart" aria-hidden="true"></i> <a href="#" target="_blank">MIS Team Under Supervision <span style="color:red;">Dr/mohamed Abbassy</span></a>‏
+                                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                                </p>
                             </div>
                         </div>
                     </div>

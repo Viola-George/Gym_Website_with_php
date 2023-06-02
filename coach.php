@@ -41,45 +41,45 @@
     </div>
     <!-- MENU BAR -->
     <header>
-            <!-- Header Start -->
-            <div class="header-area header-transparent">
-                <div class="main-header header-sticky">
-                    <div class="container-fluid">
-                        <div class="menu-wrapper d-flex align-items-center justify-content-between">
+        <!-- Header Start -->
+        <div class="header-area header-transparent">
+            <div class="main-header header-sticky">
+                <div class="container-fluid">
+                    <div class="menu-wrapper d-flex align-items-center justify-content-between">
 
-                            <div class="logo">
-                                <a href="index.html"><img src="img/TT.png" alt=""></a>
-                                <strong><a style="font-size: 230%;" class="display-1 navbar-brand" href="home.php">
-                                        Healthy<span style="color: red;font-size: 130%;">Life</span> </a></strong>
+                        <div class="logo">
+                            <a href="index.html"><img src="img/TT.png" alt=""></a>
+                            <strong><a style="font-size: 230%;" class="display-1 navbar-brand" href="home.php">
+                                    Healthy<span style="color: red;font-size: 130%;">Life</span> </a></strong>
 
-                            </div>
+                        </div>
 
-                            <div class="main-menu f-right d-none d-lg-block">
-                                <nav>
-                                    <ul id="navigation">
-                                        <li><a href="home.php">Home</a></li>
-                                        <li><a href="about.php">About</a></li>
-                                        <li><a href="courses.php">Courses</a></li>
-                                        <li><a href="blog.php">Pricing</a></li>
-                                        <li><a href="contact.php">Contact</a></li>
-                                        <li><a href="Account.php">Account</a></li>
-                                        <li><a href="logout.php">logout</a></li>
-                                    </ul>
-                                </nav>
-                            </div>
-                            <!-- Header-btn -->
+                        <div class="main-menu f-right d-none d-lg-block">
+                            <nav>
+                                <ul id="navigation">
+                                    <li><a href="home.php">Home</a></li>
+                                    <li><a href="about.php">About</a></li>
+                                    <li><a href="courses.php">Courses</a></li>
+                                    <li><a href="blog.php">Pricing</a></li>
+                                    <li><a href="contact.php">Contact</a></li>
+                                    <li><a href="Account.php">Account</a></li>
+                                    <li><a href="logout.php">logout</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <!-- Header-btn -->
 
-                            <!-- Mobile Menu -->
-                            <div class="col-12">
-                                <div class="mobile_menu d-block d-lg-none"></div>
-                            </div>
+                        <!-- Mobile Menu -->
+                        <div class="col-12">
+                            <div class="mobile_menu d-block d-lg-none"></div>
                         </div>
                     </div>
                 </div>
-
             </div>
-            <!-- Header End -->
-        </header>
+
+        </div>
+        <!-- Header End -->
+    </header>
     <main>
 
         <!-- Hero End -->
@@ -266,8 +266,9 @@
                                 <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                                     Copyright &copy;<script>
                                         document.write(new Date().getFullYear());
-                                    </script> All rights reserved | <i class="fa fa-heart" aria-hidden="true"></i> <a href="#" target="_blank">By Myself Effort</a>
-                                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+                                    </script> All rights reserved | <i class="fa fa-heart" aria-hidden="true"></i> <a href="#" target="_blank">MIS Team Under Supervision <span style="color:red;">Dr/mohamed Abbassy</span></a>‏
+                                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                                </p>
                             </div>
                         </div>
                     </div>

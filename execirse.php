@@ -63,7 +63,7 @@ include("connect.php");
                                 <ul id="navigation">
                                     <li><a href="home.php">Home</a></li>
                                     <li><a href="about.php">About</a></li>
-                                    
+
                                     <li><a href="execirse.php">Execirse</a></li>
 
                                     <li><a href="courses.php">Courses</a></li>
@@ -90,12 +90,12 @@ include("connect.php");
     <br><br><br><br><br><br><br><br><br>
     <main>
         <section>
-               <div class="section-heading text-center">
-                        <h1 style="color: white;">Choose <em style="color: #FF0000;">Program</em></h1>
-                        <img src="assets/images/line-dec.png" alt="waves">
-                        <p style="color: white;">"A healthy lifestyle website that helps you live a balanced life."</p>
-                </div>
-                <br><br><br><br><br><br><br><br><br>
+            <div class="section-heading text-center">
+                <h1 style="color: white;">Choose <em style="color: #FF0000;">Program</em></h1>
+                <img src="assets/images/line-dec.png" alt="waves">
+                <p style="color: white;">"A healthy lifestyle website that helps you live a balanced life."</p>
+            </div>
+            <br><br><br><br><br><br><br><br><br>
 
             <div class="box">
                 <div class="container">
@@ -111,8 +111,8 @@ include("connect.php");
                                     <div class="col-md-9">
                                         <div class="card-body">
                                             <h1 style="color: white;" class="card-title">Yoga Training</h1>
-                                                <p style="color: white;" class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                                <p class="card-text"><strong> <a href="https://drive.google.com/file/d/1sPfR-mamMvAnbnGqcdKSL7cs--6inIxM/view?usp=share_link" style="color: #FF0000;" class="text-button">Discover More</a></strong></p>
+                                            <p style="color: white;" class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                            <p class="card-text"><strong> <a href="https://drive.google.com/file/d/1sPfR-mamMvAnbnGqcdKSL7cs--6inIxM/view?usp=share_link" style="color: #FF0000;" class="text-button">Discover More</a></strong></p>
                                         </div>
                                     </div>
                                 </div>
@@ -129,8 +129,8 @@ include("connect.php");
                                     <div class="col-md-9">
                                         <div class="card-body">
                                             <h1 style="color: white;" class="card-title">Advanced Muscle Course</h1>
-                                                <p style="color: white;" class="card-text"> refers to an advanced course for muscle building. It is a course or program aimed at individuals who are advanced in muscle building and muscular strength development.</p>
-                                                <p class="card-text"><strong> <a href="https://drive.google.com/file/d/1rCFaQX9w8xJRxrIE2j17SeIwLW7CXUMh/view?usp=share_link" style="color: #FF0000;" class="text-button">Discover More</a></strong></p>
+                                            <p style="color: white;" class="card-text"> refers to an advanced course for muscle building. It is a course or program aimed at individuals who are advanced in muscle building and muscular strength development.</p>
+                                            <p class="card-text"><strong> <a href="https://drive.google.com/file/d/1rCFaQX9w8xJRxrIE2j17SeIwLW7CXUMh/view?usp=share_link" style="color: #FF0000;" class="text-button">Discover More</a></strong></p>
                                         </div>
                                     </div>
                                 </div>
@@ -146,8 +146,8 @@ include("connect.php");
                                     <div class="col-md-9">
                                         <div class="card-body">
                                             <h1 style="color: white;" class="card-title">Basic Fitness</h1>
-                                                <p style="color: white;" class="card-text">Basic Fitness refers to the overall condition of the body and the ability to perform daily activities easily and effectively. Basic fitness is essential for maintaining good health and improving the quality of life.</p>
-                                                <p class="card-text"><strong> <a href="https://drive.google.com/file/d/1aet881wRlhZj09icjqqAdAL6FEf_1kWr/view?usp=share_link" style="color: #FF0000;" class="text-button">Discover More</a></strong></p>
+                                            <p style="color: white;" class="card-text">Basic Fitness refers to the overall condition of the body and the ability to perform daily activities easily and effectively. Basic fitness is essential for maintaining good health and improving the quality of life.</p>
+                                            <p class="card-text"><strong> <a href="https://drive.google.com/file/d/1aet881wRlhZj09icjqqAdAL6FEf_1kWr/view?usp=share_link" style="color: #FF0000;" class="text-button">Discover More</a></strong></p>
                                         </div>
                                     </div>
                                 </div>
@@ -167,8 +167,8 @@ include("connect.php");
                                     <div class="col-md-9">
                                         <div class="card-body">
                                             <h1 style="color: white;" class="card-title">Basic Muscle Course</h1>
-                                                <p style="color: white;" class="card-text">The term "Basic Muscle Course" refers to a course or program aimed at teaching the fundamentals and basic concepts of muscle building and muscular strength development. This course is beneficial for beginners who are looking to start a muscle-building exercise program and improve body composition.</p>
-                                                <p class="card-text"><strong> <a href="https://drive.google.com/file/d/1NpcfQEFSlAt_mX0EFp1XjBmWf3G3T0Kg/view?usp=share_link" style="color: #FF0000;" class="text-button">Discover More</a></strong></p>
+                                            <p style="color: white;" class="card-text">The term "Basic Muscle Course" refers to a course or program aimed at teaching the fundamentals and basic concepts of muscle building and muscular strength development. This course is beneficial for beginners who are looking to start a muscle-building exercise program and improve body composition.</p>
+                                            <p class="card-text"><strong> <a href="https://drive.google.com/file/d/1NpcfQEFSlAt_mX0EFp1XjBmWf3G3T0Kg/view?usp=share_link" style="color: #FF0000;" class="text-button">Discover More</a></strong></p>
                                         </div>
                                     </div>
                                 </div>
@@ -191,8 +191,8 @@ include("connect.php");
                                     <div class="col-md-9">
                                         <div class="card-body">
                                             <h1 style="color: white;" class="card-title">Body Building Course</h1>
-                                                <p style="color: white;" class="card-text">The content of the course typically includes specialized training techniques and programs for muscle building and increasing muscle size. The course teaches comprehensive training methods for different areas of the body, including strength and endurance exercises, and advanced exercises for each muscle group. Other aspects such as proper nutrition for muscle building, intense training programs, and recovery strategies may also be included.</p>
-                                                <p class="card-text"><strong> <a href=href="https://drive.google.com/file/d/1k-4P5T37MYed5yZuqh06lTO_tuEyPPLV/view?usp=share_link" style="color: #FF0000;" class="text-button">Discover More</a></strong></p>
+                                            <p style="color: white;" class="card-text">The content of the course typically includes specialized training techniques and programs for muscle building and increasing muscle size. The course teaches comprehensive training methods for different areas of the body, including strength and endurance exercises, and advanced exercises for each muscle group. Other aspects such as proper nutrition for muscle building, intense training programs, and recovery strategies may also be included.</p>
+                                            <p class="card-text"><strong> <a href=href="https://drive.google.com/file/d/1k-4P5T37MYed5yZuqh06lTO_tuEyPPLV/view?usp=share_link" style="color: #FF0000;" class="text-button">Discover More</a></strong></p>
                                         </div>
                                     </div>
                                 </div>
@@ -209,8 +209,8 @@ include("connect.php");
                                     <div class="col-md-9">
                                         <div class="card-body">
                                             <h1 style="color: white;" class="card-title">New Gym Training</h1>
-                                                <p style="color: white;" class="card-text">Gym facilities offer a diverse range of equipment and devices that enable practitioners to diversify their exercises and achieve comprehensive improvements in their physical fitness. Gym exercises can include strength exercises such as weightlifting and using strength machines, cardiovascular exercises such as running on the treadmill and using stationary bikes, as well as exercises to improve flexibility and balance.</p>
-                                                <p class="card-text"><strong> <a href="https://drive.google.com/file/d/1xQWSx_n_-dgv3ZLtNgr5Ev9Y0Wnk80aV/view?usp=share_link" style="color: #FF0000;" class="text-button">Discover More</a></strong></p>
+                                            <p style="color: white;" class="card-text">Gym facilities offer a diverse range of equipment and devices that enable practitioners to diversify their exercises and achieve comprehensive improvements in their physical fitness. Gym exercises can include strength exercises such as weightlifting and using strength machines, cardiovascular exercises such as running on the treadmill and using stationary bikes, as well as exercises to improve flexibility and balance.</p>
+                                            <p class="card-text"><strong> <a href="https://drive.google.com/file/d/1xQWSx_n_-dgv3ZLtNgr5Ev9Y0Wnk80aV/view?usp=share_link" style="color: #FF0000;" class="text-button">Discover More</a></strong></p>
                                         </div>
                                     </div>
                                 </div>
@@ -227,69 +227,70 @@ include("connect.php");
 </body>
 
 <footer>
-        <!--? Footer Start-->
-        <div class="footer-area black-bg">
-            <div class="container">
-                <div class="footer-top footer-padding">
-                    <!-- Footer Menu -->
-                    <div class="row">
-                        <div class="col-xl-12">
-                            <div class="single-footer-caption mb-50 text-center">
-                                <!-- logo -->
-                                <div class="footer-logo wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
-                                    <a href="index.html"><img src="img/TT.png" alt=""></a>
-                                </div>
-                                <!-- Menu -->
-                                <!-- Header Start -->
-                                <div class="header-area main-header2 wow fadeInUp" data-wow-duration="2s" data-wow-delay=".4s">
-                                    <div class="main-header main-header2">
-                                        <div class="menu-wrapper menu-wrapper2">
-                                            <!-- Main-menu -->
-                                            <div class="main-menu main-menu2 text-center">
-                                                <nav>
-                                                    <ul>
-                                                        <li><a href="home.php">Home</a></li>
-                                                        <li><a href="about.php">About</a></li>
-                                                        <li><a href="execirse.php">Execirse</a></li>
-                                                        <li><a href="courses.php">Courses</a></li>
-                                                        <li><a href="blog.php">Pricing</a></li>
-                                                        <li><a href="Account.php">Account</a></li>
-                                                        <li><a href="contact.php">Contact</a></li>
-                                                    </ul>
-                                                </nav>
-                                            </div>
+    <!--? Footer Start-->
+    <div class="footer-area black-bg">
+        <div class="container">
+            <div class="footer-top footer-padding">
+                <!-- Footer Menu -->
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="single-footer-caption mb-50 text-center">
+                            <!-- logo -->
+                            <div class="footer-logo wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
+                                <a href="index.html"><img src="img/TT.png" alt=""></a>
+                            </div>
+                            <!-- Menu -->
+                            <!-- Header Start -->
+                            <div class="header-area main-header2 wow fadeInUp" data-wow-duration="2s" data-wow-delay=".4s">
+                                <div class="main-header main-header2">
+                                    <div class="menu-wrapper menu-wrapper2">
+                                        <!-- Main-menu -->
+                                        <div class="main-menu main-menu2 text-center">
+                                            <nav>
+                                                <ul>
+                                                    <li><a href="home.php">Home</a></li>
+                                                    <li><a href="about.php">About</a></li>
+                                                    <li><a href="execirse.php">Execirse</a></li>
+                                                    <li><a href="courses.php">Courses</a></li>
+                                                    <li><a href="blog.php">Pricing</a></li>
+                                                    <li><a href="Account.php">Account</a></li>
+                                                    <li><a href="contact.php">Contact</a></li>
+                                                </ul>
+                                            </nav>
                                         </div>
                                     </div>
                                 </div>
-                                <!-- Header End -->
-                                <!-- social -->
-                                <div class="footer-social mt-30 wow fadeInUp" data-wow-duration="3s" data-wow-delay=".8s">
-                                    <a href="#"><i class="fab fa-youtube"></i></a>
-                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="#"><i class="fab fa-instagram"></i></a>
-                                </div>
                             </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Footer Bottom -->
-                <div class="footer-bottom">
-                    <div class="row d-flex align-items-center">
-                        <div class="col-lg-12">
-                            <div class="footer-copy-right text-center">
-                                <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                                    Copyright &copy;<script>
-                                        document.write(new Date().getFullYear());
-                                    </script> All rights reserved | <i class="fa fa-heart" aria-hidden="true"></i> <a href="#" target="_blank">By Myself Effort</a>
-                                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+                            <!-- Header End -->
+                            <!-- social -->
+                            <div class="footer-social mt-30 wow fadeInUp" data-wow-duration="3s" data-wow-delay=".8s">
+                                <a href="#"><i class="fab fa-youtube"></i></a>
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+            <!-- Footer Bottom -->
+            <div class="footer-bottom">
+                <div class="row d-flex align-items-center">
+                    <div class="col-lg-12">
+                        <div class="footer-copy-right text-center">
+                            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                                Copyright &copy;<script>
+                                    document.write(new Date().getFullYear());
+                                </script> All rights reserved | <i class="fa fa-heart" aria-hidden="true"></i> <a href="#" target="_blank">MIS Team Under Supervision <span style="color:red;">Dr/mohamed Abbassy</span></a>‏
+                                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <!-- Footer End-->
-    </footer>
+    </div>
+    <!-- Footer End-->
+</footer>
 
 <!-- Scroll Up -->
 <div id="back-top">
