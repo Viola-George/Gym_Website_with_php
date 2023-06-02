@@ -233,9 +233,9 @@ include("connect.php");
                                     <li><a href="execirse.php">Execirse</a></li>
 
                                     <li><a href="courses.php">Courses</a></li>
-                                    <li><a href="blog.php">Pricing</a></li>
+                                    <li><a href=" price.php">Pricing</a></li>
                                     <li><a href="contact.php">Contact</a></li>
-                                    <li><a href="Account.php">Account</a></li>
+                                    <!-- <li><a href="Account.php">Account</a></li> -->
                                     <li><a href="logout.php">logout</a></li>
                                 </ul>
                             </nav>
@@ -506,8 +506,8 @@ include("connect.php");
                                                     <li><a href="about.php">About</a></li>
                                                     <li><a href="execirse.php">Execirse</a></li>
                                                     <li><a href="courses.php">Courses</a></li>
-                                                    <li><a href="blog.php">Pricing</a></li>
-                                                    <li><a href="Account.php">Account</a></li>
+                                                    <li><a href=" price.php">Pricing</a></li>
+                                                    <!-- <li><a href="Account.php">Account</a></li> -->
                                                     <li><a href="contact.php">Contact</a></li>
                                                 </ul>
                                             </nav>

@@ -58,9 +58,9 @@ if ($_SESSION["log"] == false) {
                                     <li><a href="execirse.php">Execirse</a></li>
 
                                     <li><a href="courses.php">Courses</a></li>
-                                    <li><a href="blog.php">Pricing</a></li>
+                                    <li><a href=" price.php">Pricing</a></li>
                                     <li><a href="contact.php">Contact</a></li>
-                                    <li><a href="Account.php">Account</a></li>
+                                    <!-- <li><a href="Account.php">Account</a></li> -->
                                     <li><a href="logout.php">logout</a></li>
                                 </ul>
                             </nav>
@@ -157,22 +157,22 @@ if ($_SESSION["log"] == false) {
 
                                 <form method="post">
 
-                                    <h1 style="color: white;" class="login-title">Change User Settings</h1>
-
+                                    <h1 style="color: white;" class="login-title"> User Information</h1>
+                                    <br> <br>
+                                    <br>
 
                                     <input style="color: black;background-color: white;" class="reg-input" name="uname" placeholder="<?php echo $_SESSION["name"]; ?>" disabled /><br>
 
 
-                                    <input style="color: black ;background-color: white;" class="reg-input" name="email" placeholder="Email...." required /><br>
+                                    <!-- <input style="color: black ;background-color: white;" class="reg-input" name="email" placeholder="Email...." required /><br> -->
 
 
 
 
-                                    <input style="color: white;" type="password" class="reg-input" name="pass" placeholder="password...." required /><br>
+                                    <input style="color: black;" type="password" class="reg-input" name="pass" placeholder="***********" required /><br>
                                     <br>
-                                    <input type="submit" name="save" value="Update" class="btn login-button">
-                                    <br>
-                                    <br>
+                                    <!-- <input type="submit" name="save" value="Update" class="btn login-button"> -->
+
                                     <br>
 
                                 </form>
@@ -215,8 +215,8 @@ if ($_SESSION["log"] == false) {
                                                         <li><a href="about.php">About</a></li>
                                                         <li><a href="execirse.php">Execirse</a></li>
                                                         <li><a href="courses.php">Courses</a></li>
-                                                        <li><a href="blog.php">Pricing</a></li>
-                                                        <li><a href="Account.php">Account</a></li>
+                                                        <li><a href=" price.php">Pricing</a></li>
+                                                        <!-- <li><a href="Account.php">Account</a></li> -->
                                                         <li><a href="contact.php">Contact</a></li>
                                                     </ul>
                                                 </nav>

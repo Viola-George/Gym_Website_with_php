@@ -68,9 +68,9 @@ if ($_SESSION["log"] == true) {
                                         <li><a href="execirse.php">Execirse</a></li>
 
                                         <li><a href="courses.php">Courses</a></li>
-                                        <li><a href="blog.php">Pricing</a></li>
+                                        <li><a href=" price.php">Pricing</a></li>
                                         <li><a href="contact.php">Contact</a></li>
-                                        <li><a href="Account.php">Account</a></li>
+                                        <!-- <li><a href="Account.php">Account</a></li> -->
                                         <li><a href="logout.php">logout</a></li>
                                     </ul>
                                 </nav>
@@ -143,20 +143,20 @@ if ($_SESSION["log"] == true) {
                             </div>
                             <div class="row">
                                 <div class="col-lg-4 col-md-6 col-sm-6">
-                                    <div class="properties mb-30">
+                                    <div class="properties mb-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
                                         <div class="properties__card">
                                             <div class="about-icon">
                                                 <img src="assets/img/icon/price.svg" alt="">
                                             </div>
                                             <div class="properties__caption">
-                                                <span class="month">6 month</span>
-                                                <p class="mb-25">$30/m <span>(Single class)</span></p>
+                                                <span class="month">9 month</span>
+                                                <p class="mb-25">$90/m <span>(Family class)</span></p>
                                                 <div class="single-features">
                                                     <div class="features-icon">
                                                         <img src="assets/img/icon/check.svg" alt="">
                                                     </div>
                                                     <div class="features-caption">
-                                                        <p>Free riding </p>
+                                                        <p>Free Execirse </p>
                                                     </div>
                                                 </div>
                                                 <div class="single-features">
@@ -197,20 +197,20 @@ if ($_SESSION["log"] == true) {
                                     </div>
                                 </div>
                                 <div class="col-lg-4 col-md-6 col-sm-6">
-                                    <div class="properties mb-30">
+                                    <div class="properties mb-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
                                         <div class="properties__card">
                                             <div class="about-icon">
                                                 <img src="assets/img/icon/price.svg" alt="">
                                             </div>
                                             <div class="properties__caption">
                                                 <span class="month">6 month</span>
-                                                <p class="mb-25">$30/m <span>(Single class)</span></p>
+                                                <p class="mb-25">$60/m <span>(Couple class)</span></p>
                                                 <div class="single-features">
                                                     <div class="features-icon">
                                                         <img src="assets/img/icon/check.svg" alt="">
                                                     </div>
                                                     <div class="features-caption">
-                                                        <p>Free riding </p>
+                                                        <p>Free Execirse </p>
                                                     </div>
                                                 </div>
                                                 <div class="single-features">
@@ -231,7 +231,7 @@ if ($_SESSION["log"] == true) {
                                                 </div>
                                                 <div class="single-features">
                                                     <div class="features-icon">
-                                                        <img src="assets/img/icon/check.svg" alt="">
+                                                        <img style="width: 15px;" src="images/xxx.png" alt="">
                                                     </div>
                                                     <div class="features-caption">
                                                         <p>Weight losing classes</p>
@@ -239,7 +239,7 @@ if ($_SESSION["log"] == true) {
                                                 </div>
                                                 <div class="single-features mb-20">
                                                     <div class="features-icon">
-                                                        <img src="assets/img/icon/check.svg" alt="">
+                                                        <img style="width: 15px;" src="images/xxx.png" alt="">
                                                     </div>
                                                     <div class="features-caption">
                                                         <p>Month to mouth</p>
@@ -251,25 +251,25 @@ if ($_SESSION["log"] == true) {
                                     </div>
                                 </div>
                                 <div class="col-lg-4 col-md-6 col-sm-6">
-                                    <div class="properties mb-30">
+                                    <div class="properties mb-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">
                                         <div class="properties__card">
                                             <div class="about-icon">
                                                 <img src="assets/img/icon/price.svg" alt="">
                                             </div>
                                             <div class="properties__caption">
-                                                <span class="month">6 month</span>
+                                                <span class="month">3 month</span>
                                                 <p class="mb-25">$30/m <span>(Single class)</span></p>
                                                 <div class="single-features">
                                                     <div class="features-icon">
                                                         <img src="assets/img/icon/check.svg" alt="">
                                                     </div>
                                                     <div class="features-caption">
-                                                        <p>Free riding </p>
+                                                        <p>Free Execirse </p>
                                                     </div>
                                                 </div>
                                                 <div class="single-features">
                                                     <div class="features-icon">
-                                                        <img src="assets/img/icon/check.svg" alt="">
+                                                        <img style="width: 15px;" src="images/xxx.png" alt="">
                                                     </div>
                                                     <div class="features-caption">
                                                         <p>Unlimited equipments</p>
@@ -277,7 +277,7 @@ if ($_SESSION["log"] == true) {
                                                 </div>
                                                 <div class="single-features">
                                                     <div class="features-icon">
-                                                        <img src="assets/img/icon/check.svg" alt="">
+                                                        <img style="width: 15px;" src="images/xxx.png" alt="">
                                                     </div>
                                                     <div class="features-caption">
                                                         <p>Personal trainer</p>
@@ -285,7 +285,7 @@ if ($_SESSION["log"] == true) {
                                                 </div>
                                                 <div class="single-features">
                                                     <div class="features-icon">
-                                                        <img src="assets/img/icon/check.svg" alt="">
+                                                        <img style="width: 15px;" src="images/xxx.png" alt="">
                                                     </div>
                                                     <div class="features-caption">
                                                         <p>Weight losing classes</p>
@@ -293,7 +293,7 @@ if ($_SESSION["log"] == true) {
                                                 </div>
                                                 <div class="single-features mb-20">
                                                     <div class="features-icon">
-                                                        <img src="assets/img/icon/check.svg" alt="">
+                                                        <img style="width: 15px;" src="images/xxx.png" alt="">
                                                     </div>
                                                     <div class="features-caption">
                                                         <p>Month to mouth</p>
@@ -305,6 +305,7 @@ if ($_SESSION["log"] == true) {
                                     </div>
                                 </div>
                             </div>
+                         
                         </div>
                     </section>
                     <!-- Courses area End -->
@@ -394,9 +395,8 @@ if ($_SESSION["log"] == true) {
                                         </div>
                                         <div class="features-caption">
                                             <h3 style="color: black;">Email</h3>
-                                            <p style="color: black;">tuitionstonight@gmail.com</p>
-                                            <p style="color: black;">tutifyy@gmail.com</p>
-                                        </div>
+                                            <p style="color: black;">MIS@gmail.com</p>
+                                                     </div>
                                     </div>
                                 </div>
                             </div>
@@ -435,8 +435,8 @@ if ($_SESSION["log"] == true) {
                                                             <li><a href="about.php">About</a></li>
                                                             <li><a href="execirse.php">Execirse</a></li>
                                                             <li><a href="courses.php">Courses</a></li>
-                                                            <li><a href="blog.php">Pricing</a></li>
-                                                            <li><a href="Account.php">Account</a></li>
+                                                            <li><a href=" price.php">Pricing</a></li>
+                                                            <!-- <li><a href="Account.php">Account</a></li> -->
                                                             <li><a href="contact.php">Contact</a></li>
                                                         </ul>
                                                     </nav>

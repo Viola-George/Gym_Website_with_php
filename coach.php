@@ -60,9 +60,9 @@
                                     <li><a href="home.php">Home</a></li>
                                     <li><a href="about.php">About</a></li>
                                     <li><a href="courses.php">Courses</a></li>
-                                    <li><a href="blog.php">Pricing</a></li>
+                                    <li><a href=" price.php">Pricing</a></li>
                                     <li><a href="contact.php">Contact</a></li>
-                                    <li><a href="Account.php">Account</a></li>
+                                    <!-- <li><a href="Account.php">Account</a></li> -->
                                     <li><a href="logout.php">logout</a></li>
                                 </ul>
                             </nav>
@@ -143,7 +143,7 @@
                                     <div class="topic-content">
                                         <h3>Personal traning</h3>
                                         <p>You’ll look at graphs and charts in Task One, how to approach the task and <br> the language needed for a successful answer.</p>
-                                        <a href="blog.php" class="border-btn">View Courses</a>
+                                        <a href=" price.php" class="border-btn">View Courses</a>
                                     </div>
                                 </div>
                             </div>
@@ -157,7 +157,7 @@
                                     <div class="topic-content">
                                         <h3>Group traning</h3>
                                         <p>You’ll look at graphs and charts in Task One, how to approach the task and <br> the language needed for a successful answer.</p>
-                                        <a href="blog.php" class="btn">View Courses</a>
+                                        <a href=" price.php" class="btn">View Courses</a>
                                     </div>
                                 </div>
                             </div>
@@ -203,8 +203,7 @@
                             </div>
                             <div class="features-caption">
                                 <h3 style="color: black;">Email</h3>
-                                <p style="color: black;">tuitionstonight@gmail.com</p>
-                                <p style="color: black;">tutifyy@gmail.com</p>
+                                <p style="color: black;">MIS@gmail.com</p>
                             </div>
                         </div>
                     </div>
@@ -238,8 +237,8 @@
                                                         <li><a href="about.php">About</a></li>
                                                         <li><a href="execirse.php">Execirse</a></li>
                                                         <li><a href="courses.php">Courses</a></li>
-                                                        <li><a href="blog.php">Pricing</a></li>
-                                                        <li><a href="Account.php">Account</a></li>
+                                                        <li><a href=" price.php">Pricing</a></li>
+                                                        <!-- <li><a href="Account.php">Account</a></li> -->
                                                         <li><a href="contact.php">Contact</a></li>
                                                     </ul>
                                                 </nav>

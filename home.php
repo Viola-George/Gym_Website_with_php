@@ -91,9 +91,9 @@ include("connect.php");
                                     <li><a href="execirse.php">Execirse</a></li>
 
                                     <li><a href="courses.php">Courses</a></li>
-                                    <li><a href="blog.php">Pricing</a></li>
+                                    <li><a href=" price.php">Pricing</a></li>
                                     <li><a href="contact.php">Contact</a></li>
-                                    <li><a href="Account.php">Account</a></li>
+                                    <!-- <li><a href="Account.php">Account</a></li> -->
                                     <li><a href="logout.php">logout</a></li>
                                     <!-- <li><img id="icon" src="images/moon.png"></li> -->
                                 </ul>
@@ -704,9 +704,8 @@ include("connect.php");
                             </div>
                             <div class="features-caption">
                                 <h3 style="color: black;">Email</h3>
-                                <p style="color: black;">tuitionstonight@gmail.com</p>
-                                <p style="color: black;">tutifyy@gmail.com</p>
-                            </div>
+                                <p style="color: black;">MIS@gmail.com</p>
+                             </div>
                         </div>
                     </div>
                 </div>
@@ -716,9 +715,9 @@ include("connect.php");
 
 
         <!-- CONTACT -->
-  
+
         <section class="pt-5 m-5 contact section" id="contact">
-        <?php
+            <?php
             include('connect.php');
             // When form submitted, insert values into the database.
 
@@ -741,7 +740,7 @@ include("connect.php");
                 }
             }
             ?>
-                        <div class=" align-items-center container" style="background-color:white;justify-items: center;">
+            <div class=" align-items-center container" style="background-color:white;justify-items: center;">
                 <div class="row">
 
                     <div class="m-auto p-5 col-lg-12 align-items-center justify-items: center; col-md-12 col-12">
@@ -758,7 +757,7 @@ include("connect.php");
                         </form>
                     </div>
 
-                   
+
 
                 </div>
             </div>
@@ -792,8 +791,8 @@ include("connect.php");
                                                         <li><a href="about.php">About</a></li>
                                                         <li><a href="execirse.php">Execirse</a></li>
                                                         <li><a href="courses.php">Courses</a></li>
-                                                        <li><a href="blog.php">Pricing</a></li>
-                                                        <li><a href="Account.php">Account</a></li>
+                                                        <li><a href=" price.php">Pricing</a></li>
+                                                        <!-- <li><a href="Account.php">Account</a></li> -->
                                                         <li><a href="contact.php">Contact</a></li>
                                                     </ul>
                                                 </nav>

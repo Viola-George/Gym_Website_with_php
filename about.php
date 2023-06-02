@@ -61,9 +61,9 @@
                                     <li><a href="execirse.php">Execirse</a></li>
 
                                     <li><a href="courses.php">Courses</a></li>
-                                    <li><a href="blog.php">Pricing</a></li>
+                                    <li><a href=" price.php">Pricing</a></li>
                                     <li><a href="contact.php">Contact</a></li>
-                                    <li><a href="Account.php">Account</a></li>
+                                    <!-- <li><a href="Account.php">Account</a></li> -->
                                     <li><a href="logout.php">logout</a></li>
                                 </ul>
                             </nav>
@@ -251,7 +251,7 @@
                             </div>
                             <div class="features-caption">
                                 <h3>Email</h3>
-                                <p>TuitionsTonight@gmail.com</p>
+                                <p>MIS@gmail.com</p>
                                 <p>tutifyy@gmail.com</p>
 
                             </div>
@@ -287,8 +287,8 @@
                                                         <li><a href="about.php">About</a></li>
                                                         <li><a href="execirse.php">Execirse</a></li>
                                                         <li><a href="courses.php">Courses</a></li>
-                                                        <li><a href="blog.php">Pricing</a></li>
-                                                        <li><a href="Account.php">Account</a></li>
+                                                        <li><a href=" price.php">Pricing</a></li>
+                                                        <!-- <li><a href="Account.php">Account</a></li> -->
                                                         <li><a href="contact.php">Contact</a></li>
                                                     </ul>
                                                 </nav>
